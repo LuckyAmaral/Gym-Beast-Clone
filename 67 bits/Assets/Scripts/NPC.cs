@@ -11,13 +11,15 @@ public class NPC : MonoBehaviour
     [SerializeField] private List<Collider> m_Collider;
     [SerializeField] private List<HingeJoint> m_Joints;
     [SerializeField] private List<Rigidbody> m_Rb;
+    private bool m_Uncontius;
 
     ///<sumary>
     ///define que não esta como no modo ragdoll quando iniciado
     ///</sumary>
     void Start()
     {
-        Ragdol(false);
+        m_Uncontius = false;
+        Ragdol(m_Uncontius);
     }
 
     ///<sumary>
@@ -36,9 +38,17 @@ public class NPC : MonoBehaviour
         }
     }
 
-    void Update(){
-        if (Input.GetKeyDown(KeyCode.Space)){
-            Ragdol(true);
-        }
+
+    public List<Rigidbody> GetRb(){
+        return m_Rb;
+    }
+
+    public bool GetUncontius(){
+        return m_Uncontius;
+    }
+
+    public IEnumerator SetUncontius(bool define){
+        yield return new WaitForSeconds(0.5f);
+        m_Uncontius = define;
     }
 }
