@@ -11,6 +11,8 @@ public class NPC : MonoBehaviour
     [SerializeField] private List<Collider> m_Collider;
     [SerializeField] private List<HingeJoint> m_Joints;
     [SerializeField] private List<Rigidbody> m_Rb;
+    [SerializeField] private float m_Speed;
+    [SerializeField] private Transform m_GoForward;
     private bool m_Uncontius;
 
     ///<sumary>
@@ -20,6 +22,13 @@ public class NPC : MonoBehaviour
     {
         m_Uncontius = false;
         Ragdol(m_Uncontius);
+    }
+
+    void Update()
+    {
+        if(!m_Uncontius){
+            transform.position = Vector3.MoveTowards(transform.position,m_GoForward.position, m_Speed);
+        }
     }
 
     ///<sumary>
@@ -38,6 +47,12 @@ public class NPC : MonoBehaviour
         }
     }
 
+    public void ChangeLayer(){
+        gameObject.layer = 6;
+        foreach(Collider col in m_Collider){
+            col.gameObject.layer = 6;
+        }
+    }
 
     public List<Rigidbody> GetRb(){
         return m_Rb;
