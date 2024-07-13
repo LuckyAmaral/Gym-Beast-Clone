@@ -1,7 +1,11 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.InputSystem;
 
+///<sumary>
+///Pilha que o player carrega
+///</sumary>
 public class Inventory : MonoBehaviour
 {
     private List<GameObject> m_Pile;
@@ -9,17 +13,32 @@ public class Inventory : MonoBehaviour
     private int m_CurrentPile;
     [SerializeField] private Transform m_Startrotation;
     [SerializeField] private Transform m_Angle;
+    [SerializeField] private Animator m_Anim;
+    private float m_Inputx;
+    private float m_Inputz;
 
+    ///<sumary>
+    ///define os valores iniciais das variaveis
+    ///</sumary>
     void Start(){
         m_PileLimit = 3;
         m_CurrentPile=0;
         m_Pile = new List<GameObject>();
     }
 
+    ///<sumary>
+    ///Aumenta a quantidade de NPCs que pode ser carregado
+    ///</sumary>
     public void UpgradePile(){
         m_PileLimit++;
     }
 
+    ///<sumary>
+    ///se tiver espaço, adiciona o NPC para a pilha
+    ///</sumary>
+    ///<param name = "person">
+    ///NPC à ser adicionado a pilha
+    ///</param>
     public void AddToPile(GameObject person){
         if(!m_Pile.Contains(person)){
             if(m_CurrentPile<m_PileLimit){
@@ -29,37 +48,54 @@ public class Inventory : MonoBehaviour
         }
     }
 
+    ///<sumary>
+    ///Retorna os Quantos NPC estão sendo carregados para outros scripts sem deixar a variavel em publico
+    ///</sumary>
     public int GetPile(){
         return m_CurrentPile;
     }
 
-    // Update is called once per frame
-    void Update(){
+    ///<sumary>
+    ///Funções de atualizar a rotação e a posição dos objetos na pilha
+    ///</sumary>
+    void FixedUpdate(){
         int i = 0;
         foreach(GameObject person in m_Pile){
             if(person != null){
-                person.transform.position = new Vector3(transform.position.x + (i*Direction("Vertical",1)),
+                person.transform.position = new Vector3(transform.position.x + (i*Direction(m_Inputx)),
                                             transform.position.y +(i*1.25f),
-                                            transform.position.z+ (i*Direction("Horizontal",-1)));
+                                            transform.position.z+ (i*Direction(m_Inputz)));
                 person.transform.rotation = transform.rotation;
             }
             i++;
         }
         transform.rotation = Quaternion.Lerp(m_Startrotation.rotation, 
         m_Angle.rotation, 
-       (Mathf.Abs(Input.GetAxis("Vertical"))+Mathf.Abs(Input.GetAxis("Horizontal")))
+       (Mathf.Abs(m_Inputx)+Mathf.Abs(m_Inputz))
         );
     }
 
-    private float Direction(string name,int multplier){
+    ///<sumary>
+    ///Retorna um incremento para cada objeto na pilha, garantindo que eles se ajustem comforme a direção que o player se move
+    ///</sumary>
+    ///<param name = "name">
+    ///O qaunto que vai ter que ir para tras
+    ///</param>
+    private float Direction(float value){
         if(Input.GetAxis(name)!= 0){
-            float f = Mathf.Lerp(-0.3f,0.3f,Input.GetAxis(name));
-            return multplier*f;
+            float f = Mathf.Lerp(-0.3f,0.3f,value);
+            return f;
         }else{
             return 0;
         }
     }
 
+    ///<sumary>
+    ///Zera a pilha, e direciona os NPCs dentro dela para o gol
+    ///</sumary>
+    ///<param name = "local">
+    ///localização do gol
+    ///</param>
     public void ClearPlie(Vector3 local){
         foreach(GameObject person in m_Pile){
             if(person!=null){
@@ -68,5 +104,15 @@ public class Inventory : MonoBehaviour
         }
         m_Pile.Clear();
         m_CurrentPile = 0;
+        m_Anim.SetBool("IsCarrying",false);
+    }
+
+    ///<sumary>
+    ///Recebe input do joystick
+    ///</sumary>
+    public void MoveCharacter(InputAction.CallbackContext value){
+        Vector2 moviment = value.ReadValue<Vector2>();
+        m_Inputx = moviment.y;
+        m_Inputz = -moviment.x;
     }
 }
