@@ -49,7 +49,7 @@ public class Player : MonoBehaviour
             if(character.GetUncontius()){
                 m_Inventory.AddToPile(collider.gameObject);
                 character.ChangeLayer();
-                character.Ragdol(false);
+                //character.Ragdol(false);
                 m_Anim.SetBool("IsCarrying",true);
             }else{
                 character.Ragdol(true);
