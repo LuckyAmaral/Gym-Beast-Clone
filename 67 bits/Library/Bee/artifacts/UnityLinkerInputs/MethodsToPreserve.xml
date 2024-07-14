@@ -1,0 +1,34 @@
+<linker>
+	<assembly fullname="Assembly-CSharp" ignoreIfMissing="1">
+		<type fullname="ButtonClick">
+			<method name="SouldOut"/>
+			<method name="SouldOut"/>
+			<method name="SouldOut"/>
+			<method name="SouldOut"/>
+			<method name="SouldOut"/>
+			<method name="SouldOut"/>
+		</type>
+		<type fullname="ChangeMaterial">
+			<method name="ChangeColor"/>
+			<method name="ChangeColor"/>
+			<method name="ChangeColor"/>
+			<method name="ChangeColor"/>
+			<method name="ChangeColor"/>
+		</type>
+		<type fullname="Inventory">
+			<method name="MoveJoystick"/>
+			<method name="UpgradePile"/>
+		</type>
+		<type fullname="Money">
+			<method name="SetValue"/>
+			<method name="SetValue"/>
+			<method name="SetValue"/>
+			<method name="SetValue"/>
+			<method name="SetValue"/>
+			<method name="SetValue"/>
+		</type>
+		<type fullname="Player">
+			<method name="MoveCharacter"/>
+		</type>
+	</assembly>
+</linker>

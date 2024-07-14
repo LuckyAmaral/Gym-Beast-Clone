@@ -215,6 +215,12 @@
 -r:"E:/Unity/2023.1.15f1/Editor/Data/Managed/UnityEngine/UnityEngine.VRModule.dll"
 -r:"E:/Unity/2023.1.15f1/Editor/Data/Managed/UnityEngine/UnityEngine.WindModule.dll"
 -r:"E:/Unity/2023.1.15f1/Editor/Data/Managed/UnityEngine/UnityEngine.XRModule.dll"
+-r:"E:/Unity/2023.1.15f1/Editor/Data/PlaybackEngines/AndroidPlayer/Unity.Android.Gradle.dll"
+-r:"E:/Unity/2023.1.15f1/Editor/Data/PlaybackEngines/AndroidPlayer/Unity.Android.Types.dll"
+-r:"E:/Unity/2023.1.15f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll"
+-r:"E:/Unity/2023.1.15f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Common.dll"
+-r:"E:/Unity/2023.1.15f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll"
+-r:"E:/Unity/2023.1.15f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Xcode.dll"
 -r:"E:/Unity/2023.1.15f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll"
 -r:"E:/Unity/2023.1.15f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/Microsoft.Win32.Primitives.dll"
 -r:"E:/Unity/2023.1.15f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/netstandard.dll"
@@ -359,8 +365,8 @@
 -r:"Library/Bee/artifacts/1300b0aE.dag/UnityEngine.UI.ref.dll"
 -analyzer:"E:/Unity/2023.1.15f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.Properties.SourceGenerator.dll"
 -analyzer:"E:/Unity/2023.1.15f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll"
-"Library/PackageCache/com.unity.adaptiveperformance@5.0.0/Editor/Profiler/AdaptivePerformanceDetailsViewController.cs"
-"Library/PackageCache/com.unity.adaptiveperformance@5.0.0/Editor/Profiler/AdaptivePerformanceProfilerModule.cs"
+"Library/PackageCache/com.unity.adaptiveperformance@5.0.2/Editor/Profiler/AdaptivePerformanceDetailsViewController.cs"
+"Library/PackageCache/com.unity.adaptiveperformance@5.0.2/Editor/Profiler/AdaptivePerformanceProfilerModule.cs"
 -langversion:9.0
 /unsafe+
 /deterministic

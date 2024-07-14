@@ -14,8 +14,8 @@ public class Inventory : MonoBehaviour
     [SerializeField] private Transform m_Startrotation;
     [SerializeField] private Transform m_Angle;
     [SerializeField] private Animator m_Anim;
-    private float m_Inputx;
-    private float m_Inputz;
+    private float m_Inpx;
+    private float m_Inpz;
 
     ///<sumary>
     ///define os valores iniciais das variaveis
@@ -62,16 +62,16 @@ public class Inventory : MonoBehaviour
         int i = 0;
         foreach(GameObject person in m_Pile){
             if(person != null){
-                person.transform.position = new Vector3(transform.position.x + (i*Direction(m_Inputx)),
+                person.transform.position = new Vector3(transform.position.x + (i*Direction(m_Inpx)),
                                             transform.position.y +(i*1.25f),
-                                            transform.position.z+ (i*Direction(m_Inputz)));
+                                            transform.position.z+ (i*Direction(m_Inpz)));
                 person.transform.rotation = transform.rotation;
             }
             i++;
         }
         transform.rotation = Quaternion.Lerp(m_Startrotation.rotation, 
         m_Angle.rotation, 
-       (Mathf.Abs(m_Inputx)+Mathf.Abs(m_Inputz))
+       (Mathf.Abs(m_Inpx)+Mathf.Abs(m_Inpz))
         );
     }
 
@@ -82,7 +82,7 @@ public class Inventory : MonoBehaviour
     ///O qaunto que vai ter que ir para tras
     ///</param>
     private float Direction(float value){
-        if(Input.GetAxis(name)!= 0){
+        if(value!= 0){
             float f = Mathf.Lerp(-0.3f,0.3f,value);
             return f;
         }else{
@@ -110,9 +110,9 @@ public class Inventory : MonoBehaviour
     ///<sumary>
     ///Recebe input do joystick
     ///</sumary>
-    public void MoveCharacter(InputAction.CallbackContext value){
+    public void MoveJoystick(InputAction.CallbackContext value){
         Vector2 moviment = value.ReadValue<Vector2>();
-        m_Inputx = moviment.y;
-        m_Inputz = -moviment.x;
+        m_Inpx = moviment.y;
+        m_Inpz = -moviment.x;
     }
 }

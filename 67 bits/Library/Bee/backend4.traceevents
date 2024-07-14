@@ -1,0 +1,954 @@
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1720962796377520, "dur":33221, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1720962796410744, "dur":717, "ph":"X", "name": "RemoveStaleOutputs",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1720962796411602, "dur":95, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1720962796411697, "dur":595, "ph":"X", "name": "BuildQueueInit",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1720962796412407, "dur":50, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":0, "ts":1720962796412510, "dur":84, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles H:/Github/Gym-Beast-Clone/67 bits/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/assets/bin/Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":0, "ts":1720962796412685, "dur":77, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"AddBootConfigGUID Library/Bee/artifacts/Android/boot.config" }}
+,{ "pid":12345, "tid":0, "ts":1720962796413946, "dur":82, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"WriteText Library/Bee/artifacts/csharpactions/Unity.Profiling.Core-FeaturesChecked.txt_8iw3.info" }}
+,{ "pid":12345, "tid":0, "ts":1720962796414699, "dur":76, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"WriteText Library/Bee/artifacts/csharpactions/UnityEngine.CoreModule-FeaturesChecked.txt_uimb.info" }}
+,{ "pid":12345, "tid":0, "ts":1720962796415308, "dur":77, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"WriteText Library/Bee/artifacts/csharpactions/UnityEngine.Physics2DModule-FeaturesChecked.txt_45hf.info" }}
+,{ "pid":12345, "tid":0, "ts":1720962796415455, "dur":81, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"ExtractUsedFeatures Library/Bee/artifacts/Android/Features/UnityEngine.PropertiesModule-FeaturesChecked.txt" }}
+,{ "pid":12345, "tid":0, "ts":1720962796415845, "dur":58, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"WriteText Library/Bee/artifacts/csharpactions/UnityEngine.TextCoreFontEngineModule-FeaturesChecked.txt_4rfo.info" }}
+,{ "pid":12345, "tid":0, "ts":1720962796416376, "dur":74, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"ExtractUsedFeatures Library/Bee/artifacts/Android/Features/UnityEngine.UnityWebRequestAssetBundleModule-FeaturesChecked.txt" }}
+,{ "pid":12345, "tid":0, "ts":1720962796416570, "dur":62, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"ExtractUsedFeatures Library/Bee/artifacts/Android/Features/UnityEngine.VRModule-FeaturesChecked.txt" }}
+,{ "pid":12345, "tid":0, "ts":1720962796416912, "dur":68, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"Link_Android_arm64 Library/Bee/artifacts/Android/d8kzr/libil2cpp.so" }}
+,{ "pid":12345, "tid":0, "ts":1720962796418338, "dur":58, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/3knn0agxio62.o" }}
+,{ "pid":12345, "tid":0, "ts":1720962796419089, "dur":93, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/p6s8ld83awor.o" }}
+,{ "pid":12345, "tid":0, "ts":1720962796419898, "dur":84, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/xfmy74u69tze.o" }}
+,{ "pid":12345, "tid":0, "ts":1720962796420742, "dur":70, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/5ofotwh98ra2.o" }}
+,{ "pid":12345, "tid":0, "ts":1720962796421119, "dur":63, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/5cl2z712lari.o" }}
+,{ "pid":12345, "tid":0, "ts":1720962796421708, "dur":70, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/dc22yz07j59s.o" }}
+,{ "pid":12345, "tid":0, "ts":1720962796423289, "dur":56, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/wb63anyi0pww.o" }}
+,{ "pid":12345, "tid":0, "ts":1720962796423963, "dur":71, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/cv0udjypdqts.o" }}
+,{ "pid":12345, "tid":0, "ts":1720962796424809, "dur":68, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/dl1tyskygico.o" }}
+,{ "pid":12345, "tid":0, "ts":1720962796426290, "dur":63, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/v8jkd14dgkb6.o" }}
+,{ "pid":12345, "tid":0, "ts":1720962796427102, "dur":68, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/bk4grspm0f4q.o" }}
+,{ "pid":12345, "tid":0, "ts":1720962796427464, "dur":71, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/lgqelkv1xmij.o" }}
+,{ "pid":12345, "tid":0, "ts":1720962796427703, "dur":64, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/yt1vqcp5z2nl.o" }}
+,{ "pid":12345, "tid":0, "ts":1720962796428517, "dur":71, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles H:/Github/Gym-Beast-Clone/67 bits/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/GenericMethods__12.cpp" }}
+,{ "pid":12345, "tid":0, "ts":1720962796428698, "dur":66, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles H:/Github/Gym-Beast-Clone/67 bits/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/GenericMethods__16.cpp" }}
+,{ "pid":12345, "tid":0, "ts":1720962796429036, "dur":64, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles H:/Github/Gym-Beast-Clone/67 bits/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/GenericMethods__7.cpp" }}
+,{ "pid":12345, "tid":0, "ts":1720962796429391, "dur":64, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles H:/Github/Gym-Beast-Clone/67 bits/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Generics__14.cpp" }}
+,{ "pid":12345, "tid":0, "ts":1720962796432222, "dur":67, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles H:/Github/Gym-Beast-Clone/67 bits/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Il2CppCodeRegistration.cpp" }}
+,{ "pid":12345, "tid":0, "ts":1720962796434473, "dur":69, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles H:/Github/Gym-Beast-Clone/67 bits/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Unity.InputSystem__2.cpp" }}
+,{ "pid":12345, "tid":0, "ts":1720962796435557, "dur":64, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles H:/Github/Gym-Beast-Clone/67 bits/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.AndroidJNIModule_CodeGen.c" }}
+,{ "pid":12345, "tid":0, "ts":1720962796436206, "dur":50, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles H:/Github/Gym-Beast-Clone/67 bits/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.InputLegacyModule.cpp" }}
+,{ "pid":12345, "tid":0, "ts":1720962796438109, "dur":69, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles H:/Github/Gym-Beast-Clone/67 bits/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.UIModule_CodeGen.c" }}
+,{ "pid":12345, "tid":0, "ts":1720962796438862, "dur":72, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles H:/Github/Gym-Beast-Clone/67 bits/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":0, "ts":1720962796439009, "dur":71, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles H:/Github/Gym-Beast-Clone/67 bits/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":0, "ts":1720962796439476, "dur":74, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles H:/Github/Gym-Beast-Clone/67 bits/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":0, "ts":1720962796440305, "dur":70, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles H:/Github/Gym-Beast-Clone/67 bits/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1720962796441076, "dur":67, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles H:/Github/Gym-Beast-Clone/67 bits/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1720962796442101, "dur":63, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles H:/Github/Gym-Beast-Clone/67 bits/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/java/com/unity3d/player/UnityPlayerActivity.java" }}
+,{ "pid":12345, "tid":0, "ts":1720962796442351, "dur":83, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"WriteText H:/Github/Gym-Beast-Clone/67 bits/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/res/values-v28/styles.xml" }}
+,{ "pid":12345, "tid":0, "ts":1720962796442590, "dur":63, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"WriteText H:/Github/Gym-Beast-Clone/67 bits/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/src/main/res/values/strings.xml" }}
+,{ "pid":12345, "tid":0, "ts":1720962796442805, "dur":67, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles H:/Github/Gym-Beast-Clone/67 bits/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/src/main/res/mipmap-mdpi/app_icon.png" }}
+,{ "pid":12345, "tid":0, "ts":1720962796443116, "dur":77, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles H:/Github/Gym-Beast-Clone/67 bits/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/assets/realtime.tflite" }}
+,{ "pid":12345, "tid":0, "ts":1720962796412398, "dur":31510, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1720962796443915, "dur":1637930, "ph":"X", "name": "WaitForBuildFinished", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1720962798081847, "dur":734, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1720962798082582, "dur":112, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1720962798082770, "dur":59, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1720962798083119, "dur":221, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1720962798083409, "dur":28272, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1720962796412626, "dur":31297, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1720962796443926, "dur":9688, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1720962796453685, "dur":1235, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"UnityLinker H:/Github/Gym-Beast-Clone/67 bits/Library/Bee/artifacts/unitylinker_xy1a.traceevents" }}
+,{ "pid":12345, "tid":1, "ts":1720962796454920, "dur":590, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1720962796456439, "dur":703, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"IL2CPP_CodeGen H:/Github/Gym-Beast-Clone/67 bits/Library/Bee/artifacts/il2cpp_conv_p77g.traceevents" }}
+,{ "pid":12345, "tid":1, "ts":1720962796457143, "dur":2417, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1720962796461724, "dur":115, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"H:\\Github\\Gym-Beast-Clone\\67 bits\\Library\\Bee\\artifacts\\Android\\il2cppOutput\\cpp\\GenericMethods__6.cpp" }}
+,{ "pid":12345, "tid":1, "ts":1720962796461844, "dur":149, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1720962796461707, "dur":286, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/2cw4u5vmo02v.o" }}
+,{ "pid":12345, "tid":1, "ts":1720962796462060, "dur":115, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"H:\\Github\\Gym-Beast-Clone\\67 bits\\Library\\Bee\\artifacts\\Android\\il2cppOutput\\cpp\\Unity.InputSystem__4.cpp" }}
+,{ "pid":12345, "tid":1, "ts":1720962796462189, "dur":268, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1720962796462019, "dur":438, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/bnqxjxo7iwie.o" }}
+,{ "pid":12345, "tid":1, "ts":1720962796462494, "dur":208, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"H:\\Github\\Gym-Beast-Clone\\67 bits\\Library\\Bee\\artifacts\\Android\\il2cppOutput\\cpp\\mscorlib__10.cpp" }}
+,{ "pid":12345, "tid":1, "ts":1720962796462716, "dur":270, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1720962796462480, "dur":506, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/z5jh32il0c1s.o" }}
+,{ "pid":12345, "tid":1, "ts":1720962796463035, "dur":992, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"H:\\Github\\Gym-Beast-Clone\\67 bits\\Library\\Bee\\artifacts\\Android\\il2cppOutput\\cpp\\mscorlib__7.cpp" }}
+,{ "pid":12345, "tid":1, "ts":1720962796464054, "dur":236, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1720962796463010, "dur":1281, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/dwqx9oeplsx4.o" }}
+,{ "pid":12345, "tid":1, "ts":1720962796464343, "dur":147, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"H:\\Github\\Gym-Beast-Clone\\67 bits\\Library\\Bee\\artifacts\\Android\\il2cppOutput\\cpp\\System.Xml.cpp" }}
+,{ "pid":12345, "tid":1, "ts":1720962796464498, "dur":261, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1720962796464324, "dur":435, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/j6uerz8slixb.o" }}
+,{ "pid":12345, "tid":1, "ts":1720962796464821, "dur":131, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"H:\\Github\\Gym-Beast-Clone\\67 bits\\Library\\Bee\\artifacts\\Android\\il2cppOutput\\cpp\\Il2CppCodeRegistration.cpp" }}
+,{ "pid":12345, "tid":1, "ts":1720962796464961, "dur":287, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1720962796464798, "dur":450, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/5trodepzyiil.o" }}
+,{ "pid":12345, "tid":1, "ts":1720962796465287, "dur":123, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"H:\\Github\\Gym-Beast-Clone\\67 bits\\Library\\Bee\\artifacts\\Android\\il2cppOutput\\cpp\\UnityEngine.UIElementsModule__1.cpp" }}
+,{ "pid":12345, "tid":1, "ts":1720962796465417, "dur":213, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1720962796465267, "dur":363, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/e000ys1idwrm.o" }}
+,{ "pid":12345, "tid":1, "ts":1720962796465672, "dur":118, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"H:\\Github\\Gym-Beast-Clone\\67 bits\\Library\\Bee\\artifacts\\Android\\il2cppOutput\\cpp\\Generics__55.cpp" }}
+,{ "pid":12345, "tid":1, "ts":1720962796465811, "dur":227, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1720962796465651, "dur":387, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/j3927tp2gksd.o" }}
+,{ "pid":12345, "tid":1, "ts":1720962796466084, "dur":148, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"H:\\Github\\Gym-Beast-Clone\\67 bits\\Library\\Bee\\artifacts\\Android\\il2cppOutput\\cpp\\UnityEngine.UIElementsModule__5.cpp" }}
+,{ "pid":12345, "tid":1, "ts":1720962796466239, "dur":282, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1720962796466059, "dur":462, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/6ivhu0o9py7n.o" }}
+,{ "pid":12345, "tid":1, "ts":1720962796466567, "dur":118, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"H:\\Github\\Gym-Beast-Clone\\67 bits\\Library\\Bee\\artifacts\\Android\\il2cppOutput\\cpp\\UnityEngine.InputLegacyModule.cpp" }}
+,{ "pid":12345, "tid":1, "ts":1720962796466691, "dur":247, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1720962796466545, "dur":393, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/vh17r5hhjeev.o" }}
+,{ "pid":12345, "tid":1, "ts":1720962796466987, "dur":151, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"H:\\Github\\Gym-Beast-Clone\\67 bits\\Library\\Bee\\artifacts\\Android\\il2cppOutput\\cpp\\Unity.InputSystem__8.cpp" }}
+,{ "pid":12345, "tid":1, "ts":1720962796467145, "dur":211, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1720962796466961, "dur":396, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/35kef5byvyyf.o" }}
+,{ "pid":12345, "tid":1, "ts":1720962796467398, "dur":123, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"H:\\Github\\Gym-Beast-Clone\\67 bits\\Library\\Bee\\artifacts\\Android\\il2cppOutput\\cpp\\Generics__54.cpp" }}
+,{ "pid":12345, "tid":1, "ts":1720962796467528, "dur":213, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1720962796467380, "dur":362, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/yn6eskb5dwgu.o" }}
+,{ "pid":12345, "tid":1, "ts":1720962796467761, "dur":63, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/oi0xrmhsf9y4.o" }}
+,{ "pid":12345, "tid":1, "ts":1720962796467909, "dur":123, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"H:\\Github\\Gym-Beast-Clone\\67 bits\\Library\\Bee\\artifacts\\Android\\il2cppOutput\\cpp\\UnityEngine.UI__2.cpp" }}
+,{ "pid":12345, "tid":1, "ts":1720962796468040, "dur":441, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1720962796467841, "dur":640, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/ywt8jqwijw6w.o" }}
+,{ "pid":12345, "tid":1, "ts":1720962796468649, "dur":150, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"H:\\Github\\Gym-Beast-Clone\\67 bits\\Library\\Bee\\artifacts\\Android\\il2cppOutput\\cpp\\Unity.InputSystem.cpp" }}
+,{ "pid":12345, "tid":1, "ts":1720962796468807, "dur":201, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1720962796468506, "dur":503, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/7ogodcdemetu.o" }}
+,{ "pid":12345, "tid":1, "ts":1720962796469052, "dur":120, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"H:\\Github\\Gym-Beast-Clone\\67 bits\\Library\\Bee\\artifacts\\Android\\il2cppOutput\\cpp\\UnityEngine.TextCoreTextEngineModule__2.cpp" }}
+,{ "pid":12345, "tid":1, "ts":1720962796469181, "dur":205, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1720962796469032, "dur":354, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/b127vquhsvbu.o" }}
+,{ "pid":12345, "tid":1, "ts":1720962796469404, "dur":80, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/lgqelkv1xmij.o" }}
+,{ "pid":12345, "tid":1, "ts":1720962796469524, "dur":122, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"H:\\Github\\Gym-Beast-Clone\\67 bits\\Library\\Bee\\artifacts\\Android\\il2cppOutput\\cpp\\Unity.InputSystem__2.cpp" }}
+,{ "pid":12345, "tid":1, "ts":1720962796469653, "dur":203, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1720962796469508, "dur":348, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/pz2sj8tbc6pf.o" }}
+,{ "pid":12345, "tid":1, "ts":1720962796469895, "dur":127, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"H:\\Github\\Gym-Beast-Clone\\67 bits\\Library\\Bee\\artifacts\\Android\\il2cppOutput\\cpp\\Generics__63.cpp" }}
+,{ "pid":12345, "tid":1, "ts":1720962796470049, "dur":224, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1720962796469876, "dur":397, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/ka39kymodd45.o" }}
+,{ "pid":12345, "tid":1, "ts":1720962796470312, "dur":138, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"H:\\Github\\Gym-Beast-Clone\\67 bits\\Library\\Bee\\artifacts\\Android\\il2cppOutput\\cpp\\Unity.InputSystem__5.cpp" }}
+,{ "pid":12345, "tid":1, "ts":1720962796470457, "dur":276, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1720962796470294, "dur":439, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/w2tlz624lkux.o" }}
+,{ "pid":12345, "tid":1, "ts":1720962796470772, "dur":128, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"H:\\Github\\Gym-Beast-Clone\\67 bits\\Library\\Bee\\artifacts\\Android\\il2cppOutput\\cpp\\UnityEngine.UI__3.cpp" }}
+,{ "pid":12345, "tid":1, "ts":1720962796470908, "dur":215, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1720962796470757, "dur":367, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/z4dp45chnync.o" }}
+,{ "pid":12345, "tid":1, "ts":1720962796471154, "dur":142, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"H:\\Github\\Gym-Beast-Clone\\67 bits\\Library\\Bee\\artifacts\\Android\\il2cppOutput\\cpp\\Unity.InputSystem__11.cpp" }}
+,{ "pid":12345, "tid":1, "ts":1720962796471304, "dur":220, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1720962796471140, "dur":384, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/fb7xszrx0ew6.o" }}
+,{ "pid":12345, "tid":1, "ts":1720962796471552, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/41mi38t73g63.o" }}
+,{ "pid":12345, "tid":1, "ts":1720962796471657, "dur":156, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"H:\\Github\\Gym-Beast-Clone\\67 bits\\Library\\Bee\\artifacts\\Android\\il2cppOutput\\cpp\\mscorlib__1.cpp" }}
+,{ "pid":12345, "tid":1, "ts":1720962796471822, "dur":215, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1720962796471631, "dur":406, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/zp8besw21zo4.o" }}
+,{ "pid":12345, "tid":1, "ts":1720962796472068, "dur":109, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"H:\\Github\\Gym-Beast-Clone\\67 bits\\Library\\Bee\\artifacts\\Android\\il2cppOutput\\cpp\\Generics__51.cpp" }}
+,{ "pid":12345, "tid":1, "ts":1720962796472185, "dur":215, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1720962796472055, "dur":346, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/bsyt7f0a336f.o" }}
+,{ "pid":12345, "tid":1, "ts":1720962796472439, "dur":152, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"H:\\Github\\Gym-Beast-Clone\\67 bits\\Library\\Bee\\artifacts\\Android\\il2cppOutput\\cpp\\UnityEngine.CoreModule__2.cpp" }}
+,{ "pid":12345, "tid":1, "ts":1720962796472602, "dur":242, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1720962796472420, "dur":424, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/f7acvagxllz5.o" }}
+,{ "pid":12345, "tid":1, "ts":1720962796472896, "dur":163, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"H:\\Github\\Gym-Beast-Clone\\67 bits\\Library\\Bee\\artifacts\\Android\\il2cppOutput\\cpp\\System.Core.cpp" }}
+,{ "pid":12345, "tid":1, "ts":1720962796473067, "dur":201, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1720962796472869, "dur":399, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/h210d6gvauzx.o" }}
+,{ "pid":12345, "tid":1, "ts":1720962796473268, "dur":109, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1720962796473408, "dur":130, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"H:\\Github\\Gym-Beast-Clone\\67 bits\\Library\\Bee\\artifacts\\Android\\il2cppOutput\\cpp\\mscorlib__9.cpp" }}
+,{ "pid":12345, "tid":1, "ts":1720962796473545, "dur":220, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1720962796473383, "dur":382, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/zje29d9ksiq3.o" }}
+,{ "pid":12345, "tid":1, "ts":1720962796473823, "dur":198, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"H:\\Github\\Gym-Beast-Clone\\67 bits\\Library\\Bee\\artifacts\\Android\\il2cppOutput\\cpp\\Generics__34.cpp" }}
+,{ "pid":12345, "tid":1, "ts":1720962796474026, "dur":202, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1720962796473789, "dur":439, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/4qpk63t677c8.o" }}
+,{ "pid":12345, "tid":1, "ts":1720962796474278, "dur":298, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"H:\\Github\\Gym-Beast-Clone\\67 bits\\Library\\Bee\\artifacts\\Android\\il2cppOutput\\cpp\\mscorlib__6.cpp" }}
+,{ "pid":12345, "tid":1, "ts":1720962796474583, "dur":222, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1720962796474250, "dur":555, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/sgn9tf0ri4ll.o" }}
+,{ "pid":12345, "tid":1, "ts":1720962796474839, "dur":130, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"H:\\Github\\Gym-Beast-Clone\\67 bits\\Library\\Bee\\artifacts\\Android\\il2cppOutput\\cpp\\Generics__33.cpp" }}
+,{ "pid":12345, "tid":1, "ts":1720962796474976, "dur":185, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1720962796474825, "dur":337, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/jbmwquf94j1o.o" }}
+,{ "pid":12345, "tid":1, "ts":1720962796475162, "dur":373, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1720962796475560, "dur":186, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"H:\\Github\\Gym-Beast-Clone\\67 bits\\Library\\Bee\\artifacts\\Android\\il2cppOutput\\cpp\\mscorlib__4.cpp" }}
+,{ "pid":12345, "tid":1, "ts":1720962796475757, "dur":186, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1720962796475542, "dur":402, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/6sz4tq5vbetm.o" }}
+,{ "pid":12345, "tid":1, "ts":1720962796476018, "dur":118, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"H:\\Github\\Gym-Beast-Clone\\67 bits\\Library\\Bee\\artifacts\\Android\\il2cppOutput\\cpp\\mscorlib__12.cpp" }}
+,{ "pid":12345, "tid":1, "ts":1720962796476143, "dur":214, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1720962796476002, "dur":356, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/50qtylbg6oov.o" }}
+,{ "pid":12345, "tid":1, "ts":1720962796476418, "dur":155, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"H:\\Github\\Gym-Beast-Clone\\67 bits\\Library\\Bee\\artifacts\\Android\\il2cppOutput\\cpp\\GenericMethods.cpp" }}
+,{ "pid":12345, "tid":1, "ts":1720962796476580, "dur":243, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1720962796476378, "dur":445, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/qdebp4fivfrc.o" }}
+,{ "pid":12345, "tid":1, "ts":1720962796476862, "dur":133, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"H:\\Github\\Gym-Beast-Clone\\67 bits\\Library\\Bee\\artifacts\\Android\\il2cppOutput\\cpp\\Il2CppCCalculateFieldValues2.cpp" }}
+,{ "pid":12345, "tid":1, "ts":1720962796477002, "dur":228, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1720962796476849, "dur":382, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/oijagndmik38.o" }}
+,{ "pid":12345, "tid":1, "ts":1720962796477283, "dur":149, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"H:\\Github\\Gym-Beast-Clone\\67 bits\\Library\\Bee\\artifacts\\Android\\il2cppOutput\\cpp\\Unity.InputSystem__3.cpp" }}
+,{ "pid":12345, "tid":1, "ts":1720962796477443, "dur":220, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1720962796477269, "dur":394, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/q7m93naag86u.o" }}
+,{ "pid":12345, "tid":1, "ts":1720962796477735, "dur":144, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"H:\\Github\\Gym-Beast-Clone\\67 bits\\Library\\Bee\\artifacts\\Android\\il2cppOutput\\cpp\\Unity.ResourceManager__1.cpp" }}
+,{ "pid":12345, "tid":1, "ts":1720962796477887, "dur":289, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1720962796477687, "dur":489, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/2ybstf2w9ynt.o" }}
+,{ "pid":12345, "tid":1, "ts":1720962796478224, "dur":131, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"H:\\Github\\Gym-Beast-Clone\\67 bits\\Library\\Bee\\artifacts\\Android\\il2cppOutput\\cpp\\UnityEngine.UIElementsModule__10.cpp" }}
+,{ "pid":12345, "tid":1, "ts":1720962796478365, "dur":222, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1720962796478206, "dur":382, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/s5x5ij60du04.o" }}
+,{ "pid":12345, "tid":1, "ts":1720962796478900, "dur":74, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles H:/Github/Gym-Beast-Clone/67 bits/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Unity.InputSystem__5.cpp" }}
+,{ "pid":12345, "tid":1, "ts":1720962796479072, "dur":64, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles H:/Github/Gym-Beast-Clone/67 bits/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.SpriteShapeModule.cpp" }}
+,{ "pid":12345, "tid":1, "ts":1720962796479348, "dur":50, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles H:/Github/Gym-Beast-Clone/67 bits/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.UIElementsModule__9.cpp" }}
+,{ "pid":12345, "tid":1, "ts":1720962796479399, "dur":467, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles H:/Github/Gym-Beast-Clone/67 bits/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.UIElementsModule__3.cpp" }}
+,{ "pid":12345, "tid":1, "ts":1720962796480024, "dur":65, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles H:/Github/Gym-Beast-Clone/67 bits/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/GenericMethods__13.cpp" }}
+,{ "pid":12345, "tid":1, "ts":1720962796480251, "dur":77, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles H:/Github/Gym-Beast-Clone/67 bits/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Generics__33.cpp" }}
+,{ "pid":12345, "tid":1, "ts":1720962796481084, "dur":21234, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1720962796502343, "dur":1579451, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1720962796412656, "dur":31277, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1720962796443937, "dur":349, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1720962796444287, "dur":335, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1720962796444623, "dur":254, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1720962796444877, "dur":238, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1720962796445115, "dur":8524, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1720962796453774, "dur":168, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"WriteText Library/Bee/artifacts/csharpactions/Unity.VisualScripting.Flow-FeaturesChecked.txt_6qpt.info" }}
+,{ "pid":12345, "tid":2, "ts":1720962796453961, "dur":171, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"WriteText Library/Bee/artifacts/csharpactions/UnityEngine.TextRenderingModule-FeaturesChecked.txt_ighi.info" }}
+,{ "pid":12345, "tid":2, "ts":1720962796454511, "dur":1968, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1720962796456480, "dur":71, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"ExtractUsedFeatures Library/Bee/artifacts/Android/Features/System.Configuration-FeaturesChecked.txt" }}
+,{ "pid":12345, "tid":2, "ts":1720962796456638, "dur":129, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"ExtractUsedFeatures Library/Bee/artifacts/Android/Features/UnityEngine.UIElementsModule-FeaturesChecked.txt" }}
+,{ "pid":12345, "tid":2, "ts":1720962796456823, "dur":70, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"ExtractUsedFeatures Library/Bee/artifacts/Android/Features/UnityEngine-FeaturesChecked.txt" }}
+,{ "pid":12345, "tid":2, "ts":1720962796456929, "dur":95, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"ExtractUsedFeatures Library/Bee/artifacts/Android/Features/UnityEngine.AssetBundleModule-FeaturesChecked.txt" }}
+,{ "pid":12345, "tid":2, "ts":1720962796457071, "dur":157, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"ExtractUsedFeatures Library/Bee/artifacts/Android/Features/System.Xml-FeaturesChecked.txt" }}
+,{ "pid":12345, "tid":2, "ts":1720962796457383, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"ExtractUsedFeatures Library/Bee/artifacts/Android/Features/UnityEngine.JSONSerializeModule-FeaturesChecked.txt" }}
+,{ "pid":12345, "tid":2, "ts":1720962796457525, "dur":201, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles H:/Github/Gym-Beast-Clone/67 bits/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":2, "ts":1720962796458083, "dur":141, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles H:/Github/Gym-Beast-Clone/67 bits/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1720962796458249, "dur":3488, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1720962796461760, "dur":186, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"H:\\Github\\Gym-Beast-Clone\\67 bits\\Library\\Bee\\artifacts\\Android\\il2cppOutput\\cpp\\System__2.cpp" }}
+,{ "pid":12345, "tid":2, "ts":1720962796461954, "dur":218, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1720962796461738, "dur":435, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/i7oq7nmzbknz.o" }}
+,{ "pid":12345, "tid":2, "ts":1720962796462195, "dur":119, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/mw7k3slcc4xw.o" }}
+,{ "pid":12345, "tid":2, "ts":1720962796462349, "dur":113, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"H:\\Github\\Gym-Beast-Clone\\67 bits\\Library\\Bee\\artifacts\\Android\\il2cppOutput\\cpp\\Generics__26.cpp" }}
+,{ "pid":12345, "tid":2, "ts":1720962796462469, "dur":240, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1720962796462335, "dur":374, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/3jwdtzwkbf1f.o" }}
+,{ "pid":12345, "tid":2, "ts":1720962796462786, "dur":93, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"H:\\Github\\Gym-Beast-Clone\\67 bits\\Library\\Bee\\artifacts\\Android\\il2cppOutput\\cpp\\UnityEngine.UIElementsModule__14.cpp" }}
+,{ "pid":12345, "tid":2, "ts":1720962796462885, "dur":205, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1720962796462742, "dur":348, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/kosmertrqwg6.o" }}
+,{ "pid":12345, "tid":2, "ts":1720962796463115, "dur":70, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/rbeqv74d1loz.o" }}
+,{ "pid":12345, "tid":2, "ts":1720962796463205, "dur":59, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/h3laabfv6h4v.o" }}
+,{ "pid":12345, "tid":2, "ts":1720962796463304, "dur":134, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"H:\\Github\\Gym-Beast-Clone\\67 bits\\Library\\Bee\\artifacts\\Android\\il2cppOutput\\cpp\\UnityEngine.UIElementsModule__13.cpp" }}
+,{ "pid":12345, "tid":2, "ts":1720962796463444, "dur":211, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1720962796463283, "dur":372, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/z8oyyhfun84m.o" }}
+,{ "pid":12345, "tid":2, "ts":1720962796463788, "dur":130, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"H:\\Github\\Gym-Beast-Clone\\67 bits\\Library\\Bee\\artifacts\\Android\\il2cppOutput\\cpp\\UnityEngine.IMGUIModule.cpp" }}
+,{ "pid":12345, "tid":2, "ts":1720962796463927, "dur":248, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1720962796463679, "dur":496, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/bz3bn5h6s74w.o" }}
+,{ "pid":12345, "tid":2, "ts":1720962796464224, "dur":140, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"H:\\Github\\Gym-Beast-Clone\\67 bits\\Library\\Bee\\artifacts\\Android\\il2cppOutput\\cpp\\UnityEngine.CoreModule__1.cpp" }}
+,{ "pid":12345, "tid":2, "ts":1720962796464373, "dur":252, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1720962796464202, "dur":424, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/ur7nf11zixnm.o" }}
+,{ "pid":12345, "tid":2, "ts":1720962796464695, "dur":152, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"H:\\Github\\Gym-Beast-Clone\\67 bits\\Library\\Bee\\artifacts\\Android\\il2cppOutput\\cpp\\mscorlib__18.cpp" }}
+,{ "pid":12345, "tid":2, "ts":1720962796464859, "dur":252, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1720962796464649, "dur":463, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/zzp7yov3qv2r.o" }}
+,{ "pid":12345, "tid":2, "ts":1720962796465136, "dur":69, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/yc6tbpsnti2b.o" }}
+,{ "pid":12345, "tid":2, "ts":1720962796465237, "dur":122, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"H:\\Github\\Gym-Beast-Clone\\67 bits\\Library\\Bee\\artifacts\\Android\\il2cppOutput\\cpp\\Generics__39.cpp" }}
+,{ "pid":12345, "tid":2, "ts":1720962796465367, "dur":204, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1720962796465222, "dur":350, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/xh4hmrxvocap.o" }}
+,{ "pid":12345, "tid":2, "ts":1720962796465604, "dur":144, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"H:\\Github\\Gym-Beast-Clone\\67 bits\\Library\\Bee\\artifacts\\Android\\il2cppOutput\\cpp\\Generics__30.cpp" }}
+,{ "pid":12345, "tid":2, "ts":1720962796465756, "dur":275, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1720962796465591, "dur":440, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/wfeb6p4eurra.o" }}
+,{ "pid":12345, "tid":2, "ts":1720962796466055, "dur":73, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/v8jkd14dgkb6.o" }}
+,{ "pid":12345, "tid":2, "ts":1720962796466167, "dur":121, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"H:\\Github\\Gym-Beast-Clone\\67 bits\\Library\\Bee\\artifacts\\Android\\il2cppOutput\\cpp\\Unity.TextMeshPro__6.cpp" }}
+,{ "pid":12345, "tid":2, "ts":1720962796466304, "dur":224, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1720962796466147, "dur":381, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/3exwql7ba40e.o" }}
+,{ "pid":12345, "tid":2, "ts":1720962796466562, "dur":124, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"H:\\Github\\Gym-Beast-Clone\\67 bits\\Library\\Bee\\artifacts\\Android\\il2cppOutput\\cpp\\Generics__8.cpp" }}
+,{ "pid":12345, "tid":2, "ts":1720962796466694, "dur":268, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1720962796466550, "dur":413, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/vqlltq3vkpho.o" }}
+,{ "pid":12345, "tid":2, "ts":1720962796467015, "dur":150, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"H:\\Github\\Gym-Beast-Clone\\67 bits\\Library\\Bee\\artifacts\\Android\\il2cppOutput\\cpp\\Generics__38.cpp" }}
+,{ "pid":12345, "tid":2, "ts":1720962796467171, "dur":202, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1720962796466993, "dur":381, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/c20t6hjyloy5.o" }}
+,{ "pid":12345, "tid":2, "ts":1720962796467425, "dur":145, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"H:\\Github\\Gym-Beast-Clone\\67 bits\\Library\\Bee\\artifacts\\Android\\il2cppOutput\\cpp\\UnityEngine.AssetBundleModule.cpp" }}
+,{ "pid":12345, "tid":2, "ts":1720962796467575, "dur":253, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1720962796467400, "dur":429, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/utz1rby4dq0j.o" }}
+,{ "pid":12345, "tid":2, "ts":1720962796467919, "dur":113, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"H:\\Github\\Gym-Beast-Clone\\67 bits\\Library\\Bee\\artifacts\\Android\\il2cppOutput\\cpp\\Generics__3.cpp" }}
+,{ "pid":12345, "tid":2, "ts":1720962796468040, "dur":387, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1720962796467886, "dur":541, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/2z6nd3z63kk7.o" }}
+,{ "pid":12345, "tid":2, "ts":1720962796468428, "dur":81, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1720962796468517, "dur":91, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/94h5y0b38zqs.o" }}
+,{ "pid":12345, "tid":2, "ts":1720962796468674, "dur":133, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"H:\\Github\\Gym-Beast-Clone\\67 bits\\Library\\Bee\\artifacts\\Android\\il2cppOutput\\cpp\\Unity.InputSystem__1.cpp" }}
+,{ "pid":12345, "tid":2, "ts":1720962796468815, "dur":218, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1720962796468648, "dur":385, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/4jz43yfe9hew.o" }}
+,{ "pid":12345, "tid":2, "ts":1720962796469068, "dur":147, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"H:\\Github\\Gym-Beast-Clone\\67 bits\\Library\\Bee\\artifacts\\Android\\il2cppOutput\\cpp\\Generics__60.cpp" }}
+,{ "pid":12345, "tid":2, "ts":1720962796469224, "dur":229, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1720962796469054, "dur":400, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/xevo0tbu2kur.o" }}
+,{ "pid":12345, "tid":2, "ts":1720962796469454, "dur":568, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1720962796470054, "dur":131, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"H:\\Github\\Gym-Beast-Clone\\67 bits\\Library\\Bee\\artifacts\\Android\\il2cppOutput\\cpp\\GenericMethods__14.cpp" }}
+,{ "pid":12345, "tid":2, "ts":1720962796470195, "dur":183, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1720962796470035, "dur":343, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/9p8oggznww44.o" }}
+,{ "pid":12345, "tid":2, "ts":1720962796470410, "dur":174, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"H:\\Github\\Gym-Beast-Clone\\67 bits\\Library\\Bee\\artifacts\\Android\\il2cppOutput\\cpp\\Generics__31.cpp" }}
+,{ "pid":12345, "tid":2, "ts":1720962796470591, "dur":243, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1720962796470398, "dur":436, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/xnyrq5kdyt8p.o" }}
+,{ "pid":12345, "tid":2, "ts":1720962796470876, "dur":110, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"H:\\Github\\Gym-Beast-Clone\\67 bits\\Library\\Bee\\artifacts\\Android\\il2cppOutput\\cpp\\UnityEngine.cpp" }}
+,{ "pid":12345, "tid":2, "ts":1720962796470993, "dur":188, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1720962796470858, "dur":323, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/aeup3t53uc1r.o" }}
+,{ "pid":12345, "tid":2, "ts":1720962796471222, "dur":128, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"H:\\Github\\Gym-Beast-Clone\\67 bits\\Library\\Bee\\artifacts\\Android\\il2cppOutput\\cpp\\Generics__35.cpp" }}
+,{ "pid":12345, "tid":2, "ts":1720962796471357, "dur":225, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1720962796471198, "dur":384, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/p6s8ld83awor.o" }}
+,{ "pid":12345, "tid":2, "ts":1720962796471620, "dur":133, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"H:\\Github\\Gym-Beast-Clone\\67 bits\\Library\\Bee\\artifacts\\Android\\il2cppOutput\\cpp\\Unity.VisualScripting.Flow.cpp" }}
+,{ "pid":12345, "tid":2, "ts":1720962796471758, "dur":245, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1720962796471603, "dur":400, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/5aybwthhd2xr.o" }}
+,{ "pid":12345, "tid":2, "ts":1720962796472026, "dur":75, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/lxltz37tb46e.o" }}
+,{ "pid":12345, "tid":2, "ts":1720962796472162, "dur":130, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"H:\\Github\\Gym-Beast-Clone\\67 bits\\Library\\Bee\\artifacts\\Android\\il2cppOutput\\cpp\\Generics__1.cpp" }}
+,{ "pid":12345, "tid":2, "ts":1720962796472297, "dur":233, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1720962796472120, "dur":410, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/gcjjde5axur8.o" }}
+,{ "pid":12345, "tid":2, "ts":1720962796472612, "dur":183, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"H:\\Github\\Gym-Beast-Clone\\67 bits\\Library\\Bee\\artifacts\\Android\\il2cppOutput\\cpp\\mscorlib__3.cpp" }}
+,{ "pid":12345, "tid":2, "ts":1720962796472802, "dur":279, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1720962796472560, "dur":521, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/ldwgehry8ph3.o" }}
+,{ "pid":12345, "tid":2, "ts":1720962796473130, "dur":136, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"H:\\Github\\Gym-Beast-Clone\\67 bits\\Library\\Bee\\artifacts\\Android\\il2cppOutput\\cpp\\Generics__36.cpp" }}
+,{ "pid":12345, "tid":2, "ts":1720962796473274, "dur":238, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1720962796473115, "dur":397, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/qedp6so2ey56.o" }}
+,{ "pid":12345, "tid":2, "ts":1720962796473667, "dur":132, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"H:\\Github\\Gym-Beast-Clone\\67 bits\\Library\\Bee\\artifacts\\Android\\il2cppOutput\\cpp\\GenericMethods__8.cpp" }}
+,{ "pid":12345, "tid":2, "ts":1720962796473806, "dur":288, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1720962796473554, "dur":544, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/872gqoohucqy.o" }}
+,{ "pid":12345, "tid":2, "ts":1720962796474137, "dur":122, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"H:\\Github\\Gym-Beast-Clone\\67 bits\\Library\\Bee\\artifacts\\Android\\il2cppOutput\\cpp\\UnityEngine.TextRenderingModule.cpp" }}
+,{ "pid":12345, "tid":2, "ts":1720962796474270, "dur":180, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1720962796474121, "dur":329, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/3u7it8zol6f3.o" }}
+,{ "pid":12345, "tid":2, "ts":1720962796474533, "dur":126, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"H:\\Github\\Gym-Beast-Clone\\67 bits\\Library\\Bee\\artifacts\\Android\\il2cppOutput\\cpp\\GenericMethods__4.cpp" }}
+,{ "pid":12345, "tid":2, "ts":1720962796474672, "dur":192, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1720962796474509, "dur":355, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/gp8zug1qhaax.o" }}
+,{ "pid":12345, "tid":2, "ts":1720962796474918, "dur":159, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"H:\\Github\\Gym-Beast-Clone\\67 bits\\Library\\Bee\\artifacts\\Android\\il2cppOutput\\cpp\\System.Core__2.cpp" }}
+,{ "pid":12345, "tid":2, "ts":1720962796475084, "dur":175, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1720962796474899, "dur":360, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/77eivj9vjh0o.o" }}
+,{ "pid":12345, "tid":2, "ts":1720962796475259, "dur":74, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1720962796475353, "dur":122, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"H:\\Github\\Gym-Beast-Clone\\67 bits\\Library\\Bee\\artifacts\\Android\\il2cppOutput\\cpp\\Generics__56.cpp" }}
+,{ "pid":12345, "tid":2, "ts":1720962796475481, "dur":222, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1720962796475339, "dur":364, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/4idrn33zj83w.o" }}
+,{ "pid":12345, "tid":2, "ts":1720962796475737, "dur":125, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"H:\\Github\\Gym-Beast-Clone\\67 bits\\Library\\Bee\\artifacts\\Android\\il2cppOutput\\cpp\\Generics__11.cpp" }}
+,{ "pid":12345, "tid":2, "ts":1720962796475869, "dur":223, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1720962796475724, "dur":368, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/3qhx4o3es543.o" }}
+,{ "pid":12345, "tid":2, "ts":1720962796476110, "dur":60, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/a0bkl546k5hm.o" }}
+,{ "pid":12345, "tid":2, "ts":1720962796476205, "dur":136, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"H:\\Github\\Gym-Beast-Clone\\67 bits\\Library\\Bee\\artifacts\\Android\\il2cppOutput\\cpp\\Generics__37.cpp" }}
+,{ "pid":12345, "tid":2, "ts":1720962796476348, "dur":233, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1720962796476192, "dur":389, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/bugdm22zhmhq.o" }}
+,{ "pid":12345, "tid":2, "ts":1720962796476607, "dur":70, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/zm1tvhxc0jax.o" }}
+,{ "pid":12345, "tid":2, "ts":1720962796476727, "dur":126, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"H:\\Github\\Gym-Beast-Clone\\67 bits\\Library\\Bee\\artifacts\\Android\\il2cppOutput\\cpp\\Generics__32.cpp" }}
+,{ "pid":12345, "tid":2, "ts":1720962796476860, "dur":213, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1720962796476698, "dur":376, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/i31f6eza1hk9.o" }}
+,{ "pid":12345, "tid":2, "ts":1720962796477136, "dur":128, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"H:\\Github\\Gym-Beast-Clone\\67 bits\\Library\\Bee\\artifacts\\Android\\il2cppOutput\\cpp\\UnityEngine.TextCoreTextEngineModule__3.cpp" }}
+,{ "pid":12345, "tid":2, "ts":1720962796477271, "dur":239, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1720962796477111, "dur":399, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/wg6vb08evjnd.o" }}
+,{ "pid":12345, "tid":2, "ts":1720962796477548, "dur":133, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"H:\\Github\\Gym-Beast-Clone\\67 bits\\Library\\Bee\\artifacts\\Android\\il2cppOutput\\cpp\\Generics__47.cpp" }}
+,{ "pid":12345, "tid":2, "ts":1720962796477688, "dur":210, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1720962796477533, "dur":366, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/iwgwupsgkrgl.o" }}
+,{ "pid":12345, "tid":2, "ts":1720962796477932, "dur":122, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"H:\\Github\\Gym-Beast-Clone\\67 bits\\Library\\Bee\\artifacts\\Android\\il2cppOutput\\cpp\\UnityEngine.AnimationModule.cpp" }}
+,{ "pid":12345, "tid":2, "ts":1720962796478070, "dur":228, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1720962796477917, "dur":382, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/succa6bu0411.o" }}
+,{ "pid":12345, "tid":2, "ts":1720962796478333, "dur":77, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/e0v3769bdrnb.o" }}
+,{ "pid":12345, "tid":2, "ts":1720962796478474, "dur":125, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"H:\\Github\\Gym-Beast-Clone\\67 bits\\Library\\Bee\\artifacts\\Android\\il2cppOutput\\cpp\\Generics__16.cpp" }}
+,{ "pid":12345, "tid":2, "ts":1720962796478610, "dur":259, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1720962796478444, "dur":425, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/whwukc73891k.o" }}
+,{ "pid":12345, "tid":2, "ts":1720962796478953, "dur":70, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles H:/Github/Gym-Beast-Clone/67 bits/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Unity.InputSystem_CodeGen.c" }}
+,{ "pid":12345, "tid":2, "ts":1720962796479188, "dur":55, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles H:/Github/Gym-Beast-Clone/67 bits/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.Physics2DModule.cpp" }}
+,{ "pid":12345, "tid":2, "ts":1720962796479375, "dur":491, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles H:/Github/Gym-Beast-Clone/67 bits/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.JSONSerializeModule.cpp" }}
+,{ "pid":12345, "tid":2, "ts":1720962796479886, "dur":51, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles H:/Github/Gym-Beast-Clone/67 bits/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.JSONSerializeModule.cpp" }}
+,{ "pid":12345, "tid":2, "ts":1720962796479975, "dur":75, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles H:/Github/Gym-Beast-Clone/67 bits/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/GenericMethods__1.cpp" }}
+,{ "pid":12345, "tid":2, "ts":1720962796480128, "dur":60, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles H:/Github/Gym-Beast-Clone/67 bits/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Generics__67.cpp" }}
+,{ "pid":12345, "tid":2, "ts":1720962796480332, "dur":64, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles H:/Github/Gym-Beast-Clone/67 bits/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Generics__27.cpp" }}
+,{ "pid":12345, "tid":2, "ts":1720962796480498, "dur":63, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles H:/Github/Gym-Beast-Clone/67 bits/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Generics__48.cpp" }}
+,{ "pid":12345, "tid":2, "ts":1720962796480767, "dur":51, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles H:/Github/Gym-Beast-Clone/67 bits/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/analytics.json" }}
+,{ "pid":12345, "tid":2, "ts":1720962796480956, "dur":77, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles H:/Github/Gym-Beast-Clone/67 bits/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Il2CppGenericMethodTable.c" }}
+,{ "pid":12345, "tid":2, "ts":1720962796481109, "dur":1600696, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1720962796412704, "dur":31238, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1720962796443945, "dur":479, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1720962796444424, "dur":211, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1720962796444635, "dur":219, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1720962796444854, "dur":246, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1720962796445100, "dur":8556, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1720962796453668, "dur":48477, "ph":"X", "name": "ComputeLeafInputSignature",  "args": { "detail":"Lib_Android_arm64 Library/Bee/artifacts/Android/87lik/il2cpp.a" }}
+,{ "pid":12345, "tid":3, "ts":1720962796502159, "dur":101, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Link_Android_arm64 Library/Bee/artifacts/Android/d8kzr/libil2cpp.so" }}
+,{ "pid":12345, "tid":3, "ts":1720962796502348, "dur":1579440, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1720962796412827, "dur":31125, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1720962796443955, "dur":289, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1720962796444245, "dur":316, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1720962796444562, "dur":210, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1720962796444773, "dur":286, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1720962796445059, "dur":217, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1720962796445276, "dur":8381, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1720962796453708, "dur":110, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"WriteText Library/Bee/artifacts/csharpactions/UnityEngine.PhysicsModule-FeaturesChecked.txt_2l1t.info" }}
+,{ "pid":12345, "tid":4, "ts":1720962796453839, "dur":51, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"WriteText Library/Bee/artifacts/csharpactions/System-FeaturesChecked.txt_v90b.info" }}
+,{ "pid":12345, "tid":4, "ts":1720962796453987, "dur":55, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"WriteText Library/Bee/artifacts/csharpactions/UnityEngine.SpriteShapeModule-FeaturesChecked.txt_zrrh.info" }}
+,{ "pid":12345, "tid":4, "ts":1720962796454396, "dur":103, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles H:/Github/Gym-Beast-Clone/67 bits/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/java/com/unity/androidnotifications/UnityNotificationUtilities.java" }}
+,{ "pid":12345, "tid":4, "ts":1720962796454533, "dur":1945, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1720962796456479, "dur":71, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"ExtractUsedFeatures Library/Bee/artifacts/Android/Features/UnityEngine.XRModule-FeaturesChecked.txt" }}
+,{ "pid":12345, "tid":4, "ts":1720962796456566, "dur":105, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"ExtractUsedFeatures Library/Bee/artifacts/Android/Features/UnityEngine.XRModule-FeaturesChecked.txt" }}
+,{ "pid":12345, "tid":4, "ts":1720962796456793, "dur":67, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"ExtractUsedFeatures Library/Bee/artifacts/Android/Features/UnityEngine.Physics2DModule-FeaturesChecked.txt" }}
+,{ "pid":12345, "tid":4, "ts":1720962796456920, "dur":59, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"ExtractUsedFeatures Library/Bee/artifacts/Android/Features/UnityEngine.VRModule-FeaturesChecked.txt" }}
+,{ "pid":12345, "tid":4, "ts":1720962796457018, "dur":91, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"ExtractUsedFeatures Library/Bee/artifacts/Android/Features/Assembly-CSharp-FeaturesChecked.txt" }}
+,{ "pid":12345, "tid":4, "ts":1720962796457157, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"ExtractUsedFeatures Library/Bee/artifacts/Android/Features/UnityEngine.TextRenderingModule-FeaturesChecked.txt" }}
+,{ "pid":12345, "tid":4, "ts":1720962796457310, "dur":114, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"ExtractUsedFeatures Library/Bee/artifacts/Android/Features/Unity.AdaptivePerformance-FeaturesChecked.txt" }}
+,{ "pid":12345, "tid":4, "ts":1720962796458232, "dur":3506, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1720962796461759, "dur":197, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"H:\\Github\\Gym-Beast-Clone\\67 bits\\Library\\Bee\\artifacts\\Android\\il2cppOutput\\cpp\\Generics__10.cpp" }}
+,{ "pid":12345, "tid":4, "ts":1720962796461965, "dur":181, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1720962796461738, "dur":408, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/ibe9ofphphtk.o" }}
+,{ "pid":12345, "tid":4, "ts":1720962796462204, "dur":115, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"H:\\Github\\Gym-Beast-Clone\\67 bits\\Library\\Bee\\artifacts\\Android\\il2cppOutput\\cpp\\Generics__20.cpp" }}
+,{ "pid":12345, "tid":4, "ts":1720962796462329, "dur":205, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1720962796462184, "dur":350, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/pdesx2eyrmsf.o" }}
+,{ "pid":12345, "tid":4, "ts":1720962796462570, "dur":130, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"H:\\Github\\Gym-Beast-Clone\\67 bits\\Library\\Bee\\artifacts\\Android\\il2cppOutput\\cpp\\mscorlib.cpp" }}
+,{ "pid":12345, "tid":4, "ts":1720962796462708, "dur":248, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1720962796462557, "dur":400, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/cj8w7ax4jt5q.o" }}
+,{ "pid":12345, "tid":4, "ts":1720962796462997, "dur":160, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"H:\\Github\\Gym-Beast-Clone\\67 bits\\Library\\Bee\\artifacts\\Android\\il2cppOutput\\cpp\\UnityEngine.UIElementsModule__7.cpp" }}
+,{ "pid":12345, "tid":4, "ts":1720962796463164, "dur":184, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1720962796462982, "dur":366, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/s6imupj5wo0m.o" }}
+,{ "pid":12345, "tid":4, "ts":1720962796463372, "dur":67, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/yt1vqcp5z2nl.o" }}
+,{ "pid":12345, "tid":4, "ts":1720962796463470, "dur":105, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"H:\\Github\\Gym-Beast-Clone\\67 bits\\Library\\Bee\\artifacts\\Android\\il2cppOutput\\cpp\\UnityEngine.CoreModule.cpp" }}
+,{ "pid":12345, "tid":4, "ts":1720962796463583, "dur":212, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1720962796463457, "dur":338, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/h9vwqt0hzjti.o" }}
+,{ "pid":12345, "tid":4, "ts":1720962796463835, "dur":131, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"H:\\Github\\Gym-Beast-Clone\\67 bits\\Library\\Bee\\artifacts\\Android\\il2cppOutput\\cpp\\GenericMethods__16.cpp" }}
+,{ "pid":12345, "tid":4, "ts":1720962796463973, "dur":216, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1720962796463819, "dur":370, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/vdwtg5tj3mx3.o" }}
+,{ "pid":12345, "tid":4, "ts":1720962796464212, "dur":64, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/93h268uif5sk.o" }}
+,{ "pid":12345, "tid":4, "ts":1720962796464308, "dur":124, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"H:\\Github\\Gym-Beast-Clone\\67 bits\\Library\\Bee\\artifacts\\Android\\il2cppOutput\\cpp\\GenericMethods__9.cpp" }}
+,{ "pid":12345, "tid":4, "ts":1720962796464439, "dur":216, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1720962796464295, "dur":360, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/9fnxa44fye7d.o" }}
+,{ "pid":12345, "tid":4, "ts":1720962796464673, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/raqrex5qqbiz.o" }}
+,{ "pid":12345, "tid":4, "ts":1720962796464759, "dur":150, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"H:\\Github\\Gym-Beast-Clone\\67 bits\\Library\\Bee\\artifacts\\Android\\il2cppOutput\\cpp\\Generics__12.cpp" }}
+,{ "pid":12345, "tid":4, "ts":1720962796464915, "dur":245, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1720962796464744, "dur":416, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/4y1dp4jdw7lj.o" }}
+,{ "pid":12345, "tid":4, "ts":1720962796465218, "dur":56, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"H:\\Github\\Gym-Beast-Clone\\67 bits\\Library\\Bee\\artifacts\\Android\\il2cppOutput\\cpp\\UnityEngine.TextCoreTextEngineModule_CodeGen.c" }}
+,{ "pid":12345, "tid":4, "ts":1720962796465195, "dur":119, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/pncvqi20cel1.o" }}
+,{ "pid":12345, "tid":4, "ts":1720962796465409, "dur":135, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"H:\\Github\\Gym-Beast-Clone\\67 bits\\Library\\Bee\\artifacts\\Android\\il2cppOutput\\cpp\\UnityEngine.UIElementsModule__12.cpp" }}
+,{ "pid":12345, "tid":4, "ts":1720962796465554, "dur":299, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1720962796465333, "dur":521, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/etlaj80wkkt3.o" }}
+,{ "pid":12345, "tid":4, "ts":1720962796465875, "dur":84, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/7ttaan5s25p2.o" }}
+,{ "pid":12345, "tid":4, "ts":1720962796465994, "dur":152, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"H:\\Github\\Gym-Beast-Clone\\67 bits\\Library\\Bee\\artifacts\\Android\\il2cppOutput\\cpp\\GenericMethods__1.cpp" }}
+,{ "pid":12345, "tid":4, "ts":1720962796466154, "dur":214, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1720962796465980, "dur":388, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/9lh7eisx7v5e.o" }}
+,{ "pid":12345, "tid":4, "ts":1720962796466406, "dur":138, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"H:\\Github\\Gym-Beast-Clone\\67 bits\\Library\\Bee\\artifacts\\Android\\il2cppOutput\\cpp\\GenericMethods__12.cpp" }}
+,{ "pid":12345, "tid":4, "ts":1720962796466551, "dur":232, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1720962796466392, "dur":392, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/n2kkgr4rp6b6.o" }}
+,{ "pid":12345, "tid":4, "ts":1720962796466861, "dur":130, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"H:\\Github\\Gym-Beast-Clone\\67 bits\\Library\\Bee\\artifacts\\Android\\il2cppOutput\\cpp\\Generics__53.cpp" }}
+,{ "pid":12345, "tid":4, "ts":1720962796466998, "dur":218, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1720962796466828, "dur":388, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/xfmy74u69tze.o" }}
+,{ "pid":12345, "tid":4, "ts":1720962796467254, "dur":120, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"H:\\Github\\Gym-Beast-Clone\\67 bits\\Library\\Bee\\artifacts\\Android\\il2cppOutput\\cpp\\Generics__68.cpp" }}
+,{ "pid":12345, "tid":4, "ts":1720962796467384, "dur":209, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1720962796467240, "dur":354, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/x80ewfoct3vq.o" }}
+,{ "pid":12345, "tid":4, "ts":1720962796467626, "dur":128, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"H:\\Github\\Gym-Beast-Clone\\67 bits\\Library\\Bee\\artifacts\\Android\\il2cppOutput\\cpp\\UnityEngine.GridModule.cpp" }}
+,{ "pid":12345, "tid":4, "ts":1720962796467763, "dur":233, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1720962796467612, "dur":385, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/cc93a7bxogwz.o" }}
+,{ "pid":12345, "tid":4, "ts":1720962796468039, "dur":295, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"H:\\Github\\Gym-Beast-Clone\\67 bits\\Library\\Bee\\artifacts\\Android\\il2cppOutput\\cpp\\Generics__66.cpp" }}
+,{ "pid":12345, "tid":4, "ts":1720962796468341, "dur":241, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1720962796468021, "dur":561, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/rdu20wvhnr8n.o" }}
+,{ "pid":12345, "tid":4, "ts":1720962796468624, "dur":145, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"H:\\Github\\Gym-Beast-Clone\\67 bits\\Library\\Bee\\artifacts\\Android\\il2cppOutput\\cpp\\Unity.TextMeshPro__4.cpp" }}
+,{ "pid":12345, "tid":4, "ts":1720962796468777, "dur":253, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1720962796468609, "dur":421, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/hr9rqwcg3d8f.o" }}
+,{ "pid":12345, "tid":4, "ts":1720962796469101, "dur":137, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"H:\\Github\\Gym-Beast-Clone\\67 bits\\Library\\Bee\\artifacts\\Android\\il2cppOutput\\cpp\\UnityEngine.Physics2DModule.cpp" }}
+,{ "pid":12345, "tid":4, "ts":1720962796469245, "dur":263, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1720962796469076, "dur":433, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/h6ro957tir07.o" }}
+,{ "pid":12345, "tid":4, "ts":1720962796469596, "dur":141, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"H:\\Github\\Gym-Beast-Clone\\67 bits\\Library\\Bee\\artifacts\\Android\\il2cppOutput\\cpp\\mscorlib__14.cpp" }}
+,{ "pid":12345, "tid":4, "ts":1720962796469742, "dur":225, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1720962796469562, "dur":405, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/roeyya6bdfhu.o" }}
+,{ "pid":12345, "tid":4, "ts":1720962796470003, "dur":147, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"H:\\Github\\Gym-Beast-Clone\\67 bits\\Library\\Bee\\artifacts\\Android\\il2cppOutput\\cpp\\UnityEngine.UIElementsModule.cpp" }}
+,{ "pid":12345, "tid":4, "ts":1720962796470159, "dur":225, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1720962796469989, "dur":396, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/pynzuetx1j9u.o" }}
+,{ "pid":12345, "tid":4, "ts":1720962796470449, "dur":166, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"H:\\Github\\Gym-Beast-Clone\\67 bits\\Library\\Bee\\artifacts\\Android\\il2cppOutput\\cpp\\Unity.InputSystem__6.cpp" }}
+,{ "pid":12345, "tid":4, "ts":1720962796470635, "dur":283, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1720962796470420, "dur":499, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/xae2jmj3pmbd.o" }}
+,{ "pid":12345, "tid":4, "ts":1720962796470965, "dur":167, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"H:\\Github\\Gym-Beast-Clone\\67 bits\\Library\\Bee\\artifacts\\Android\\il2cppOutput\\cpp\\GenericMethods__7.cpp" }}
+,{ "pid":12345, "tid":4, "ts":1720962796471151, "dur":210, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1720962796470947, "dur":415, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/nszsafakroef.o" }}
+,{ "pid":12345, "tid":4, "ts":1720962796471412, "dur":148, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"H:\\Github\\Gym-Beast-Clone\\67 bits\\Library\\Bee\\artifacts\\Android\\il2cppOutput\\cpp\\System__3.cpp" }}
+,{ "pid":12345, "tid":4, "ts":1720962796471578, "dur":230, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1720962796471381, "dur":427, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/3msenx0we8yi.o" }}
+,{ "pid":12345, "tid":4, "ts":1720962796471809, "dur":57, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1720962796471888, "dur":127, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"H:\\Github\\Gym-Beast-Clone\\67 bits\\Library\\Bee\\artifacts\\Android\\il2cppOutput\\cpp\\System__1.cpp" }}
+,{ "pid":12345, "tid":4, "ts":1720962796472022, "dur":227, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1720962796471873, "dur":377, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/xrl2re818vbg.o" }}
+,{ "pid":12345, "tid":4, "ts":1720962796472282, "dur":125, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"H:\\Github\\Gym-Beast-Clone\\67 bits\\Library\\Bee\\artifacts\\Android\\il2cppOutput\\cpp\\Generics__49.cpp" }}
+,{ "pid":12345, "tid":4, "ts":1720962796472415, "dur":224, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1720962796472269, "dur":370, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/4j40uencrh9j.o" }}
+,{ "pid":12345, "tid":4, "ts":1720962796472785, "dur":164, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"H:\\Github\\Gym-Beast-Clone\\67 bits\\Library\\Bee\\artifacts\\Android\\il2cppOutput\\cpp\\UnityEngine.PhysicsModule.cpp" }}
+,{ "pid":12345, "tid":4, "ts":1720962796472956, "dur":227, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1720962796472663, "dur":524, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/jhs6vphv9jgt.o" }}
+,{ "pid":12345, "tid":4, "ts":1720962796473223, "dur":129, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"H:\\Github\\Gym-Beast-Clone\\67 bits\\Library\\Bee\\artifacts\\Android\\il2cppOutput\\cpp\\Generics__61.cpp" }}
+,{ "pid":12345, "tid":4, "ts":1720962796473359, "dur":278, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1720962796473210, "dur":430, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/ymf5k9rs6mb7.o" }}
+,{ "pid":12345, "tid":4, "ts":1720962796473722, "dur":149, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"H:\\Github\\Gym-Beast-Clone\\67 bits\\Library\\Bee\\artifacts\\Android\\il2cppOutput\\cpp\\Il2CppCCalculateTypeValues.cpp" }}
+,{ "pid":12345, "tid":4, "ts":1720962796473879, "dur":229, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1720962796473661, "dur":448, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/20xw8ba9imhe.o" }}
+,{ "pid":12345, "tid":4, "ts":1720962796474148, "dur":124, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"H:\\Github\\Gym-Beast-Clone\\67 bits\\Library\\Bee\\artifacts\\Android\\il2cppOutput\\cpp\\System.Core__1.cpp" }}
+,{ "pid":12345, "tid":4, "ts":1720962796474281, "dur":201, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1720962796474130, "dur":353, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/msbufavygto5.o" }}
+,{ "pid":12345, "tid":4, "ts":1720962796474516, "dur":126, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"H:\\Github\\Gym-Beast-Clone\\67 bits\\Library\\Bee\\artifacts\\Android\\il2cppOutput\\cpp\\Generics__24.cpp" }}
+,{ "pid":12345, "tid":4, "ts":1720962796474650, "dur":216, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1720962796474503, "dur":363, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/xop1xg4p52dd.o" }}
+,{ "pid":12345, "tid":4, "ts":1720962796474888, "dur":64, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/emiao7ithtka.o" }}
+,{ "pid":12345, "tid":4, "ts":1720962796474973, "dur":171, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/grvakzxw86n1.o" }}
+,{ "pid":12345, "tid":4, "ts":1720962796475188, "dur":115, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"H:\\Github\\Gym-Beast-Clone\\67 bits\\Library\\Bee\\artifacts\\Android\\il2cppOutput\\cpp\\Unity.VisualScripting.Core.cpp" }}
+,{ "pid":12345, "tid":4, "ts":1720962796475308, "dur":199, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1720962796475165, "dur":342, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/i0u6uxppj2gh.o" }}
+,{ "pid":12345, "tid":4, "ts":1720962796475528, "dur":84, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/9shwouq4tnmw.o" }}
+,{ "pid":12345, "tid":4, "ts":1720962796475633, "dur":67, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/96ysy7r9ocfg.o" }}
+,{ "pid":12345, "tid":4, "ts":1720962796475768, "dur":162, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"H:\\Github\\Gym-Beast-Clone\\67 bits\\Library\\Bee\\artifacts\\Android\\il2cppOutput\\cpp\\Il2CppCCTypeValuesTable.cpp" }}
+,{ "pid":12345, "tid":4, "ts":1720962796475938, "dur":227, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1720962796475719, "dur":447, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/5cl2z712lari.o" }}
+,{ "pid":12345, "tid":4, "ts":1720962796476210, "dur":102, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"H:\\Github\\Gym-Beast-Clone\\67 bits\\Library\\Bee\\artifacts\\Android\\il2cppOutput\\cpp\\Generics__17.cpp" }}
+,{ "pid":12345, "tid":4, "ts":1720962796476319, "dur":247, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1720962796476188, "dur":378, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/xpgb5rn2ccj0.o" }}
+,{ "pid":12345, "tid":4, "ts":1720962796476694, "dur":487, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"H:\\Github\\Gym-Beast-Clone\\67 bits\\Library\\Bee\\artifacts\\Android\\il2cppOutput\\cpp\\mscorlib__5.cpp" }}
+,{ "pid":12345, "tid":4, "ts":1720962796477186, "dur":216, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1720962796476598, "dur":805, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/r82s9zjte245.o" }}
+,{ "pid":12345, "tid":4, "ts":1720962796477439, "dur":126, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"H:\\Github\\Gym-Beast-Clone\\67 bits\\Library\\Bee\\artifacts\\Android\\il2cppOutput\\cpp\\__Generated.cpp" }}
+,{ "pid":12345, "tid":4, "ts":1720962796477572, "dur":211, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1720962796477426, "dur":358, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/ak79729idhdg.o" }}
+,{ "pid":12345, "tid":4, "ts":1720962796477807, "dur":80, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/spbm7no34tnx.o" }}
+,{ "pid":12345, "tid":4, "ts":1720962796477911, "dur":87, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/mtavg38e9677.o" }}
+,{ "pid":12345, "tid":4, "ts":1720962796478037, "dur":207, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"H:\\Github\\Gym-Beast-Clone\\67 bits\\Library\\Bee\\artifacts\\Android\\il2cppOutput\\cpp\\UnityEngine.TextCoreFontEngineModule.cpp" }}
+,{ "pid":12345, "tid":4, "ts":1720962796478250, "dur":217, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1720962796478017, "dur":450, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/vls2ou0e2781.o" }}
+,{ "pid":12345, "tid":4, "ts":1720962796478983, "dur":55, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles H:/Github/Gym-Beast-Clone/67 bits/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.InputModule.cpp" }}
+,{ "pid":12345, "tid":4, "ts":1720962796479363, "dur":516, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1720962796479907, "dur":78, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles H:/Github/Gym-Beast-Clone/67 bits/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Unity.InputSystem__10.cpp" }}
+,{ "pid":12345, "tid":4, "ts":1720962796480026, "dur":53, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles H:/Github/Gym-Beast-Clone/67 bits/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/GenericMethods__10.cpp" }}
+,{ "pid":12345, "tid":4, "ts":1720962796480101, "dur":76, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles H:/Github/Gym-Beast-Clone/67 bits/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Generics__40.cpp" }}
+,{ "pid":12345, "tid":4, "ts":1720962796480251, "dur":197, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles H:/Github/Gym-Beast-Clone/67 bits/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Generics__37.cpp" }}
+,{ "pid":12345, "tid":4, "ts":1720962796480467, "dur":58, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles H:/Github/Gym-Beast-Clone/67 bits/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Generics__11.cpp" }}
+,{ "pid":12345, "tid":4, "ts":1720962796481029, "dur":69, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles H:/Github/Gym-Beast-Clone/67 bits/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Il2CppCCalculateTypeValues1.cpp" }}
+,{ "pid":12345, "tid":4, "ts":1720962796481098, "dur":21267, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1720962796502394, "dur":1579405, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1720962796412857, "dur":31104, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1720962796443964, "dur":296, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1720962796444260, "dur":340, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1720962796444600, "dur":228, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1720962796444828, "dur":250, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1720962796445078, "dur":181, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1720962796445259, "dur":8400, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1720962796453683, "dur":64, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"WriteText Library/Bee/artifacts/csharpactions/UnityEngine.JSONSerializeModule-FeaturesChecked.txt_vjsc.info" }}
+,{ "pid":12345, "tid":5, "ts":1720962796453929, "dur":51, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"WriteText Library/Bee/artifacts/csharpactions/UnityEngine.UIElementsModule-FeaturesChecked.txt_aabo.info" }}
+,{ "pid":12345, "tid":5, "ts":1720962796454086, "dur":262, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1720962796454522, "dur":1917, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1720962796456440, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"ClassRegistrationGenerator H:/Github/Gym-Beast-Clone/67 bits/Library/Bee/artifacts/Android/il2cppOutput/UnityClassRegistration.cpp" }}
+,{ "pid":12345, "tid":5, "ts":1720962796456763, "dur":101, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"ExtractUsedFeatures Library/Bee/artifacts/Android/Features/UnityEngine.GridModule-FeaturesChecked.txt" }}
+,{ "pid":12345, "tid":5, "ts":1720962796456905, "dur":130, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"ExtractUsedFeatures Library/Bee/artifacts/Android/Features/UnityEngine.SpriteShapeModule-FeaturesChecked.txt" }}
+,{ "pid":12345, "tid":5, "ts":1720962796457085, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"ExtractUsedFeatures Library/Bee/artifacts/Android/Features/System-FeaturesChecked.txt" }}
+,{ "pid":12345, "tid":5, "ts":1720962796457262, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"ExtractUsedFeatures Library/Bee/artifacts/Android/Features/UnityEngine.PhysicsModule-FeaturesChecked.txt" }}
+,{ "pid":12345, "tid":5, "ts":1720962796457714, "dur":80, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles H:/Github/Gym-Beast-Clone/67 bits/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1720962796457834, "dur":51, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles H:/Github/Gym-Beast-Clone/67 bits/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.UIModule.pdb" }}
+,{ "pid":12345, "tid":5, "ts":1720962796457954, "dur":75, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles H:/Github/Gym-Beast-Clone/67 bits/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1720962796458227, "dur":3483, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1720962796461729, "dur":210, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"H:\\Github\\Gym-Beast-Clone\\67 bits\\Library\\Bee\\artifacts\\Android\\il2cppOutput\\cpp\\GenericMethods__13.cpp" }}
+,{ "pid":12345, "tid":5, "ts":1720962796461948, "dur":204, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1720962796461711, "dur":441, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/8ho8v0ipsunp.o" }}
+,{ "pid":12345, "tid":5, "ts":1720962796462190, "dur":204, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"H:\\Github\\Gym-Beast-Clone\\67 bits\\Library\\Bee\\artifacts\\Android\\il2cppOutput\\cpp\\UnityEngine.SubsystemsModule.cpp" }}
+,{ "pid":12345, "tid":5, "ts":1720962796462403, "dur":208, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1720962796462174, "dur":437, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/2d2fe08s4wxs.o" }}
+,{ "pid":12345, "tid":5, "ts":1720962796462683, "dur":158, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"H:\\Github\\Gym-Beast-Clone\\67 bits\\Library\\Bee\\artifacts\\Android\\il2cppOutput\\cpp\\Il2CppCCFieldValuesTable.cpp" }}
+,{ "pid":12345, "tid":5, "ts":1720962796462848, "dur":223, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1720962796462667, "dur":405, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/114ujkwh51hn.o" }}
+,{ "pid":12345, "tid":5, "ts":1720962796463111, "dur":133, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"H:\\Github\\Gym-Beast-Clone\\67 bits\\Library\\Bee\\artifacts\\Android\\il2cppOutput\\cpp\\UnityEngine.UIElementsModule__15.cpp" }}
+,{ "pid":12345, "tid":5, "ts":1720962796463253, "dur":243, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1720962796463097, "dur":399, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/lwc3y69puyxl.o" }}
+,{ "pid":12345, "tid":5, "ts":1720962796463589, "dur":118, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"H:\\Github\\Gym-Beast-Clone\\67 bits\\Library\\Bee\\artifacts\\Android\\il2cppOutput\\cpp\\Generics__44.cpp" }}
+,{ "pid":12345, "tid":5, "ts":1720962796463738, "dur":210, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1720962796463521, "dur":427, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/btp3erjnadc3.o" }}
+,{ "pid":12345, "tid":5, "ts":1720962796463995, "dur":158, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"H:\\Github\\Gym-Beast-Clone\\67 bits\\Library\\Bee\\artifacts\\Android\\il2cppOutput\\cpp\\UnityEngine.VRModule.cpp" }}
+,{ "pid":12345, "tid":5, "ts":1720962796464161, "dur":259, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1720962796463973, "dur":447, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/au4z1s9o64c1.o" }}
+,{ "pid":12345, "tid":5, "ts":1720962796464440, "dur":73, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/mdt9ybiyxodx.o" }}
+,{ "pid":12345, "tid":5, "ts":1720962796464533, "dur":65, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/inkwgsw2bbzk.o" }}
+,{ "pid":12345, "tid":5, "ts":1720962796464654, "dur":172, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"H:\\Github\\Gym-Beast-Clone\\67 bits\\Library\\Bee\\artifacts\\Android\\il2cppOutput\\cpp\\Generics__42.cpp" }}
+,{ "pid":12345, "tid":5, "ts":1720962796464835, "dur":194, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1720962796464636, "dur":393, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/5xirj8qs40o0.o" }}
+,{ "pid":12345, "tid":5, "ts":1720962796465079, "dur":162, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"H:\\Github\\Gym-Beast-Clone\\67 bits\\Library\\Bee\\artifacts\\Android\\il2cppOutput\\cpp\\Generics__23.cpp" }}
+,{ "pid":12345, "tid":5, "ts":1720962796465252, "dur":258, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1720962796465050, "dur":461, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/wg5kd1nr10wx.o" }}
+,{ "pid":12345, "tid":5, "ts":1720962796465511, "dur":89, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1720962796465622, "dur":287, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"H:\\Github\\Gym-Beast-Clone\\67 bits\\Library\\Bee\\artifacts\\Android\\il2cppOutput\\cpp\\mscorlib__13.cpp" }}
+,{ "pid":12345, "tid":5, "ts":1720962796465917, "dur":283, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1720962796465607, "dur":593, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/68aaj1rear5a.o" }}
+,{ "pid":12345, "tid":5, "ts":1720962796466317, "dur":142, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"H:\\Github\\Gym-Beast-Clone\\67 bits\\Library\\Bee\\artifacts\\Android\\il2cppOutput\\cpp\\UnityEngine.UIElementsModule__6.cpp" }}
+,{ "pid":12345, "tid":5, "ts":1720962796466467, "dur":209, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1720962796466257, "dur":419, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/7qfyeg57t0o3.o" }}
+,{ "pid":12345, "tid":5, "ts":1720962796466718, "dur":157, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"H:\\Github\\Gym-Beast-Clone\\67 bits\\Library\\Bee\\artifacts\\Android\\il2cppOutput\\cpp\\Il2CppCCalculateFieldValues1.cpp" }}
+,{ "pid":12345, "tid":5, "ts":1720962796466880, "dur":190, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1720962796466699, "dur":371, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/32fm0dzofwrp.o" }}
+,{ "pid":12345, "tid":5, "ts":1720962796467119, "dur":124, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"H:\\Github\\Gym-Beast-Clone\\67 bits\\Library\\Bee\\artifacts\\Android\\il2cppOutput\\cpp\\mscorlib__17.cpp" }}
+,{ "pid":12345, "tid":5, "ts":1720962796467250, "dur":235, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1720962796467104, "dur":381, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/yr5qe9e5mtlc.o" }}
+,{ "pid":12345, "tid":5, "ts":1720962796467509, "dur":69, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/p4cxzql87zy9.o" }}
+,{ "pid":12345, "tid":5, "ts":1720962796467611, "dur":137, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"H:\\Github\\Gym-Beast-Clone\\67 bits\\Library\\Bee\\artifacts\\Android\\il2cppOutput\\cpp\\UnityEngine.UIElementsModule__2.cpp" }}
+,{ "pid":12345, "tid":5, "ts":1720962796467756, "dur":238, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1720962796467596, "dur":398, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/zf4oe2fggk35.o" }}
+,{ "pid":12345, "tid":5, "ts":1720962796468044, "dur":293, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"H:\\Github\\Gym-Beast-Clone\\67 bits\\Library\\Bee\\artifacts\\Android\\il2cppOutput\\cpp\\Generics__9.cpp" }}
+,{ "pid":12345, "tid":5, "ts":1720962796468345, "dur":215, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1720962796468027, "dur":534, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/g6o98zhtndt7.o" }}
+,{ "pid":12345, "tid":5, "ts":1720962796468713, "dur":129, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"H:\\Github\\Gym-Beast-Clone\\67 bits\\Library\\Bee\\artifacts\\Android\\il2cppOutput\\cpp\\UnityEngine.UIElementsModule__3.cpp" }}
+,{ "pid":12345, "tid":5, "ts":1720962796468850, "dur":216, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1720962796468693, "dur":373, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/kv7cubudj8ep.o" }}
+,{ "pid":12345, "tid":5, "ts":1720962796469101, "dur":132, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"H:\\Github\\Gym-Beast-Clone\\67 bits\\Library\\Bee\\artifacts\\Android\\il2cppOutput\\cpp\\UnityEngine.SpriteShapeModule.cpp" }}
+,{ "pid":12345, "tid":5, "ts":1720962796469241, "dur":237, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1720962796469087, "dur":392, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/ck9g1fs2exwx.o" }}
+,{ "pid":12345, "tid":5, "ts":1720962796469499, "dur":81, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/jfgq8kukqehk.o" }}
+,{ "pid":12345, "tid":5, "ts":1720962796469628, "dur":146, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"H:\\Github\\Gym-Beast-Clone\\67 bits\\Library\\Bee\\artifacts\\Android\\il2cppOutput\\cpp\\Generics__18.cpp" }}
+,{ "pid":12345, "tid":5, "ts":1720962796469789, "dur":196, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1720962796469600, "dur":385, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/i5jzk11zf0uj.o" }}
+,{ "pid":12345, "tid":5, "ts":1720962796470098, "dur":130, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"H:\\Github\\Gym-Beast-Clone\\67 bits\\Library\\Bee\\artifacts\\Android\\il2cppOutput\\cpp\\GenericMethods__11.cpp" }}
+,{ "pid":12345, "tid":5, "ts":1720962796470237, "dur":207, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1720962796470046, "dur":398, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/2mhw0hqumi0m.o" }}
+,{ "pid":12345, "tid":5, "ts":1720962796470482, "dur":194, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"H:\\Github\\Gym-Beast-Clone\\67 bits\\Library\\Bee\\artifacts\\Android\\il2cppOutput\\cpp\\mscorlib__2.cpp" }}
+,{ "pid":12345, "tid":5, "ts":1720962796470689, "dur":304, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1720962796470467, "dur":527, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/k5b0t1a04n0n.o" }}
+,{ "pid":12345, "tid":5, "ts":1720962796471037, "dur":136, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"H:\\Github\\Gym-Beast-Clone\\67 bits\\Library\\Bee\\artifacts\\Android\\il2cppOutput\\cpp\\Mono.Security.cpp" }}
+,{ "pid":12345, "tid":5, "ts":1720962796471188, "dur":229, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1720962796471017, "dur":401, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/ih4nrfg1hu16.o" }}
+,{ "pid":12345, "tid":5, "ts":1720962796471445, "dur":65, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/biqw9lgpitdq.o" }}
+,{ "pid":12345, "tid":5, "ts":1720962796471548, "dur":143, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"H:\\Github\\Gym-Beast-Clone\\67 bits\\Library\\Bee\\artifacts\\Android\\il2cppOutput\\cpp\\UnityEngine.IMGUIModule__1.cpp" }}
+,{ "pid":12345, "tid":5, "ts":1720962796471700, "dur":238, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1720962796471535, "dur":403, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/cv0udjypdqts.o" }}
+,{ "pid":12345, "tid":5, "ts":1720962796472027, "dur":63, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1720962796471964, "dur":127, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/kwnsapg2f3rl.o" }}
+,{ "pid":12345, "tid":5, "ts":1720962796472136, "dur":133, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"H:\\Github\\Gym-Beast-Clone\\67 bits\\Library\\Bee\\artifacts\\Android\\il2cppOutput\\cpp\\System.cpp" }}
+,{ "pid":12345, "tid":5, "ts":1720962796472277, "dur":239, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1720962796472114, "dur":403, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/q6wgg6kdui9b.o" }}
+,{ "pid":12345, "tid":5, "ts":1720962796472540, "dur":68, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/vart0sqv9ogh.o" }}
+,{ "pid":12345, "tid":5, "ts":1720962796472637, "dur":84, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/w4fe7q1ce4n1.o" }}
+,{ "pid":12345, "tid":5, "ts":1720962796472745, "dur":110, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/kq8wzpatrih2.o" }}
+,{ "pid":12345, "tid":5, "ts":1720962796472913, "dur":141, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"H:\\Github\\Gym-Beast-Clone\\67 bits\\Library\\Bee\\artifacts\\Android\\il2cppOutput\\cpp\\Generics__41.cpp" }}
+,{ "pid":12345, "tid":5, "ts":1720962796473066, "dur":261, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1720962796472882, "dur":445, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/4pyazsau0y7k.o" }}
+,{ "pid":12345, "tid":5, "ts":1720962796473350, "dur":92, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/u6ilwi53fyi9.o" }}
+,{ "pid":12345, "tid":5, "ts":1720962796473516, "dur":120, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"H:\\Github\\Gym-Beast-Clone\\67 bits\\Library\\Bee\\artifacts\\Android\\il2cppOutput\\cpp\\UnityEngine.XRModule.cpp" }}
+,{ "pid":12345, "tid":5, "ts":1720962796473647, "dur":259, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1720962796473482, "dur":424, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/8lo575x4984s.o" }}
+,{ "pid":12345, "tid":5, "ts":1720962796473962, "dur":119, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"H:\\Github\\Gym-Beast-Clone\\67 bits\\Library\\Bee\\artifacts\\Android\\il2cppOutput\\cpp\\System.Configuration.cpp" }}
+,{ "pid":12345, "tid":5, "ts":1720962796474091, "dur":213, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1720962796473928, "dur":377, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/u3ukhfkftbrj.o" }}
+,{ "pid":12345, "tid":5, "ts":1720962796474305, "dur":67, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1720962796474393, "dur":121, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"H:\\Github\\Gym-Beast-Clone\\67 bits\\Library\\Bee\\artifacts\\Android\\il2cppOutput\\cpp\\Generics__58.cpp" }}
+,{ "pid":12345, "tid":5, "ts":1720962796474520, "dur":258, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1720962796474379, "dur":399, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/q60vnsyvqywv.o" }}
+,{ "pid":12345, "tid":5, "ts":1720962796474805, "dur":76, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/mm0941shn5fx.o" }}
+,{ "pid":12345, "tid":5, "ts":1720962796474918, "dur":180, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"H:\\Github\\Gym-Beast-Clone\\67 bits\\Library\\Bee\\artifacts\\Android\\il2cppOutput\\cpp\\Generics__4.cpp" }}
+,{ "pid":12345, "tid":5, "ts":1720962796475105, "dur":203, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1720962796474904, "dur":405, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/nfactce468vq.o" }}
+,{ "pid":12345, "tid":5, "ts":1720962796475346, "dur":134, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"H:\\Github\\Gym-Beast-Clone\\67 bits\\Library\\Bee\\artifacts\\Android\\il2cppOutput\\cpp\\Unity.VisualScripting.Core__1.cpp" }}
+,{ "pid":12345, "tid":5, "ts":1720962796475489, "dur":221, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1720962796475332, "dur":378, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/9smz3skey79j.o" }}
+,{ "pid":12345, "tid":5, "ts":1720962796475749, "dur":116, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"H:\\Github\\Gym-Beast-Clone\\67 bits\\Library\\Bee\\artifacts\\Android\\il2cppOutput\\cpp\\UnityEngine.TextCoreTextEngineModule__1.cpp" }}
+,{ "pid":12345, "tid":5, "ts":1720962796475871, "dur":204, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1720962796475731, "dur":344, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/qlzjghgkp7za.o" }}
+,{ "pid":12345, "tid":5, "ts":1720962796476115, "dur":138, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"H:\\Github\\Gym-Beast-Clone\\67 bits\\Library\\Bee\\artifacts\\Android\\il2cppOutput\\cpp\\mscorlib__16.cpp" }}
+,{ "pid":12345, "tid":5, "ts":1720962796476259, "dur":206, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1720962796476098, "dur":368, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/dc22yz07j59s.o" }}
+,{ "pid":12345, "tid":5, "ts":1720962796476506, "dur":143, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"H:\\Github\\Gym-Beast-Clone\\67 bits\\Library\\Bee\\artifacts\\Android\\il2cppOutput\\cpp\\Generics__45.cpp" }}
+,{ "pid":12345, "tid":5, "ts":1720962796476657, "dur":231, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1720962796476489, "dur":400, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/c19jz6zlefti.o" }}
+,{ "pid":12345, "tid":5, "ts":1720962796476926, "dur":129, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"H:\\Github\\Gym-Beast-Clone\\67 bits\\Library\\Bee\\artifacts\\Android\\il2cppOutput\\cpp\\Generics__62.cpp" }}
+,{ "pid":12345, "tid":5, "ts":1720962796477063, "dur":261, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1720962796476913, "dur":411, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/j2it0i6p9anq.o" }}
+,{ "pid":12345, "tid":5, "ts":1720962796477362, "dur":127, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"H:\\Github\\Gym-Beast-Clone\\67 bits\\Library\\Bee\\artifacts\\Android\\il2cppOutput\\cpp\\UnityEngine.InputModule.cpp" }}
+,{ "pid":12345, "tid":5, "ts":1720962796477494, "dur":224, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1720962796477343, "dur":375, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/yq6yahk0j47p.o" }}
+,{ "pid":12345, "tid":5, "ts":1720962796477767, "dur":142, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"H:\\Github\\Gym-Beast-Clone\\67 bits\\Library\\Bee\\artifacts\\Android\\il2cppOutput\\cpp\\Generics__14.cpp" }}
+,{ "pid":12345, "tid":5, "ts":1720962796477916, "dur":244, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1720962796477753, "dur":407, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/au8pknc81j9l.o" }}
+,{ "pid":12345, "tid":5, "ts":1720962796478201, "dur":125, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"H:\\Github\\Gym-Beast-Clone\\67 bits\\Library\\Bee\\artifacts\\Android\\il2cppOutput\\cpp\\Generics__25.cpp" }}
+,{ "pid":12345, "tid":5, "ts":1720962796478334, "dur":253, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1720962796478183, "dur":404, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/i4spdqin8qpw.o" }}
+,{ "pid":12345, "tid":5, "ts":1720962796478793, "dur":72, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles H:/Github/Gym-Beast-Clone/67 bits/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/mscorlib__5.cpp" }}
+,{ "pid":12345, "tid":5, "ts":1720962796479028, "dur":66, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles H:/Github/Gym-Beast-Clone/67 bits/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Unity.InputSystem.cpp" }}
+,{ "pid":12345, "tid":5, "ts":1720962796479200, "dur":93, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles H:/Github/Gym-Beast-Clone/67 bits/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.VRModule_CodeGen.c" }}
+,{ "pid":12345, "tid":5, "ts":1720962796479410, "dur":469, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles H:/Github/Gym-Beast-Clone/67 bits/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.UIElementsModule__6.cpp" }}
+,{ "pid":12345, "tid":5, "ts":1720962796480070, "dur":67, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles H:/Github/Gym-Beast-Clone/67 bits/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Generics__31.cpp" }}
+,{ "pid":12345, "tid":5, "ts":1720962796480187, "dur":94, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles H:/Github/Gym-Beast-Clone/67 bits/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Generics__46.cpp" }}
+,{ "pid":12345, "tid":5, "ts":1720962796480556, "dur":96, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles H:/Github/Gym-Beast-Clone/67 bits/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Generics__8.cpp" }}
+,{ "pid":12345, "tid":5, "ts":1720962796480770, "dur":94, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles H:/Github/Gym-Beast-Clone/67 bits/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.JSONSerializeModule_CodeGen.c" }}
+,{ "pid":12345, "tid":5, "ts":1720962796481089, "dur":21220, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1720962796502382, "dur":1579427, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1720962796412894, "dur":31076, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1720962796443973, "dur":272, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1720962796444246, "dur":336, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1720962796444583, "dur":215, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1720962796444798, "dur":275, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1720962796445074, "dur":367, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1720962796445441, "dur":8197, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1720962796453933, "dur":89, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"WriteText Library/Bee/artifacts/csharpactions/UnityEngine.UI-FeaturesChecked.txt_v0bu.info" }}
+,{ "pid":12345, "tid":6, "ts":1720962796454141, "dur":69, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles H:/Github/Gym-Beast-Clone/67 bits/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/src/main/res/mipmap-anydpi-v26/app_icon.xml" }}
+,{ "pid":12345, "tid":6, "ts":1720962796454236, "dur":86, "ph":"X", "name": "CheckPristineOutputSignature",  "args": { "detail":"WriteText H:/Github/Gym-Beast-Clone/67 bits/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/src/main/res/values/strings.xml" }}
+,{ "pid":12345, "tid":6, "ts":1720962796454481, "dur":1963, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1720962796456445, "dur":317, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"ICallRegistrationGenerator H:/Github/Gym-Beast-Clone/67 bits/Library/Bee/artifacts/Android/il2cppOutput/UnityICallRegistration.cpp" }}
+,{ "pid":12345, "tid":6, "ts":1720962796456876, "dur":60, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"ExtractUsedFeatures Library/Bee/artifacts/Android/Features/Unity.ResourceManager-FeaturesChecked.txt" }}
+,{ "pid":12345, "tid":6, "ts":1720962796457104, "dur":75, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"ExtractUsedFeatures Library/Bee/artifacts/Android/Features/UnityEngine.UnityWebRequestAssetBundleModule-FeaturesChecked.txt" }}
+,{ "pid":12345, "tid":6, "ts":1720962796457278, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"ExtractUsedFeatures Library/Bee/artifacts/Android/Features/UnityEngine.TilemapModule-FeaturesChecked.txt" }}
+,{ "pid":12345, "tid":6, "ts":1720962796457866, "dur":74, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles H:/Github/Gym-Beast-Clone/67 bits/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.TextCoreTextEngineModule.pdb" }}
+,{ "pid":12345, "tid":6, "ts":1720962796458131, "dur":124, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles H:/Github/Gym-Beast-Clone/67 bits/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.InputLegacyModule.pdb" }}
+,{ "pid":12345, "tid":6, "ts":1720962796458256, "dur":3479, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1720962796461753, "dur":125, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"H:\\Github\\Gym-Beast-Clone\\67 bits\\Library\\Bee\\artifacts\\Android\\il2cppOutput\\cpp\\Unity.TextMeshPro__1.cpp" }}
+,{ "pid":12345, "tid":6, "ts":1720962796461886, "dur":221, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1720962796461736, "dur":371, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/aoizay3mtz3x.o" }}
+,{ "pid":12345, "tid":6, "ts":1720962796462108, "dur":52, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1720962796462185, "dur":218, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"H:\\Github\\Gym-Beast-Clone\\67 bits\\Library\\Bee\\artifacts\\Android\\il2cppOutput\\cpp\\Generics__67.cpp" }}
+,{ "pid":12345, "tid":6, "ts":1720962796462411, "dur":198, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1720962796462171, "dur":438, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/ctxqg69eqfk7.o" }}
+,{ "pid":12345, "tid":6, "ts":1720962796462651, "dur":167, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"H:\\Github\\Gym-Beast-Clone\\67 bits\\Library\\Bee\\artifacts\\Android\\il2cppOutput\\cpp\\GenericMethods__18.cpp" }}
+,{ "pid":12345, "tid":6, "ts":1720962796462829, "dur":231, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1720962796462633, "dur":428, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/1825bome9yk6.o" }}
+,{ "pid":12345, "tid":6, "ts":1720962796463253, "dur":116, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"H:\\Github\\Gym-Beast-Clone\\67 bits\\Library\\Bee\\artifacts\\Android\\il2cppOutput\\cpp\\Generics__5.cpp" }}
+,{ "pid":12345, "tid":6, "ts":1720962796463378, "dur":218, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1720962796463103, "dur":493, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/onusdsu2abd6.o" }}
+,{ "pid":12345, "tid":6, "ts":1720962796463633, "dur":155, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"H:\\Github\\Gym-Beast-Clone\\67 bits\\Library\\Bee\\artifacts\\Android\\il2cppOutput\\cpp\\Generics__50.cpp" }}
+,{ "pid":12345, "tid":6, "ts":1720962796463796, "dur":212, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1720962796463616, "dur":393, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/qcv5r6ld0fvw.o" }}
+,{ "pid":12345, "tid":6, "ts":1720962796464072, "dur":119, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"H:\\Github\\Gym-Beast-Clone\\67 bits\\Library\\Bee\\artifacts\\Android\\il2cppOutput\\cpp\\UnityEngine.PropertiesModule.cpp" }}
+,{ "pid":12345, "tid":6, "ts":1720962796464198, "dur":228, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1720962796464030, "dur":397, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/xagxorso9rs7.o" }}
+,{ "pid":12345, "tid":6, "ts":1720962796464460, "dur":140, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"H:\\Github\\Gym-Beast-Clone\\67 bits\\Library\\Bee\\artifacts\\Android\\il2cppOutput\\cpp\\Generics__13.cpp" }}
+,{ "pid":12345, "tid":6, "ts":1720962796464605, "dur":263, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1720962796464447, "dur":422, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/pe514dyazvx2.o" }}
+,{ "pid":12345, "tid":6, "ts":1720962796464910, "dur":135, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"H:\\Github\\Gym-Beast-Clone\\67 bits\\Library\\Bee\\artifacts\\Android\\il2cppOutput\\cpp\\UnityEngine.JSONSerializeModule.cpp" }}
+,{ "pid":12345, "tid":6, "ts":1720962796465051, "dur":268, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1720962796464892, "dur":428, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/sb1l3im24oo2.o" }}
+,{ "pid":12345, "tid":6, "ts":1720962796465354, "dur":170, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"H:\\Github\\Gym-Beast-Clone\\67 bits\\Library\\Bee\\artifacts\\Android\\il2cppOutput\\cpp\\Generics__59.cpp" }}
+,{ "pid":12345, "tid":6, "ts":1720962796465536, "dur":227, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1720962796465340, "dur":424, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/bm4j31cttm8e.o" }}
+,{ "pid":12345, "tid":6, "ts":1720962796465868, "dur":172, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"H:\\Github\\Gym-Beast-Clone\\67 bits\\Library\\Bee\\artifacts\\Android\\il2cppOutput\\cpp\\UnityEngine.AndroidJNIModule.cpp" }}
+,{ "pid":12345, "tid":6, "ts":1720962796466046, "dur":240, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1720962796465788, "dur":499, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/4tidni0znmvv.o" }}
+,{ "pid":12345, "tid":6, "ts":1720962796466311, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/v0ncy2qyqvn1.o" }}
+,{ "pid":12345, "tid":6, "ts":1720962796466404, "dur":115, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"H:\\Github\\Gym-Beast-Clone\\67 bits\\Library\\Bee\\artifacts\\Android\\il2cppOutput\\cpp\\Generics__64.cpp" }}
+,{ "pid":12345, "tid":6, "ts":1720962796466529, "dur":210, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1720962796466384, "dur":355, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/5p6x070lg1fp.o" }}
+,{ "pid":12345, "tid":6, "ts":1720962796466782, "dur":123, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"H:\\Github\\Gym-Beast-Clone\\67 bits\\Library\\Bee\\artifacts\\Android\\il2cppOutput\\cpp\\UnityEngine.TilemapModule.cpp" }}
+,{ "pid":12345, "tid":6, "ts":1720962796466912, "dur":252, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1720962796466764, "dur":400, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/e09vt7r6keqq.o" }}
+,{ "pid":12345, "tid":6, "ts":1720962796467208, "dur":141, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"H:\\Github\\Gym-Beast-Clone\\67 bits\\Library\\Bee\\artifacts\\Android\\il2cppOutput\\cpp\\Generics__40.cpp" }}
+,{ "pid":12345, "tid":6, "ts":1720962796467357, "dur":244, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1720962796467186, "dur":416, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/javmjjwwxaw1.o" }}
+,{ "pid":12345, "tid":6, "ts":1720962796467646, "dur":139, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"H:\\Github\\Gym-Beast-Clone\\67 bits\\Library\\Bee\\artifacts\\Android\\il2cppOutput\\cpp\\Generics__28.cpp" }}
+,{ "pid":12345, "tid":6, "ts":1720962796467794, "dur":240, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1720962796467623, "dur":411, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/p7jitorgi5te.o" }}
+,{ "pid":12345, "tid":6, "ts":1720962796468346, "dur":137, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"H:\\Github\\Gym-Beast-Clone\\67 bits\\Library\\Bee\\artifacts\\Android\\il2cppOutput\\cpp\\Il2CppCCalculateFieldValues.cpp" }}
+,{ "pid":12345, "tid":6, "ts":1720962796468493, "dur":287, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1720962796468060, "dur":720, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/wggmry9fabg1.o" }}
+,{ "pid":12345, "tid":6, "ts":1720962796468800, "dur":83, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/2wcy86fcolu6.o" }}
+,{ "pid":12345, "tid":6, "ts":1720962796468921, "dur":122, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"H:\\Github\\Gym-Beast-Clone\\67 bits\\Library\\Bee\\artifacts\\Android\\il2cppOutput\\cpp\\mscorlib__15.cpp" }}
+,{ "pid":12345, "tid":6, "ts":1720962796469051, "dur":183, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1720962796468902, "dur":332, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/c4hmekk9f3sd.o" }}
+,{ "pid":12345, "tid":6, "ts":1720962796469273, "dur":121, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"H:\\Github\\Gym-Beast-Clone\\67 bits\\Library\\Bee\\artifacts\\Android\\il2cppOutput\\cpp\\Generics__57.cpp" }}
+,{ "pid":12345, "tid":6, "ts":1720962796469402, "dur":234, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1720962796469255, "dur":381, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/5qx77ikynalc.o" }}
+,{ "pid":12345, "tid":6, "ts":1720962796469673, "dur":124, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"H:\\Github\\Gym-Beast-Clone\\67 bits\\Library\\Bee\\artifacts\\Android\\il2cppOutput\\cpp\\Unity.TextMeshPro__3.cpp" }}
+,{ "pid":12345, "tid":6, "ts":1720962796469803, "dur":204, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1720962796469659, "dur":348, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/wb63anyi0pww.o" }}
+,{ "pid":12345, "tid":6, "ts":1720962796470026, "dur":72, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/5zu1wz42hfq0.o" }}
+,{ "pid":12345, "tid":6, "ts":1720962796470133, "dur":119, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"H:\\Github\\Gym-Beast-Clone\\67 bits\\Library\\Bee\\artifacts\\Android\\il2cppOutput\\cpp\\UnityEngine.UIElementsModule__11.cpp" }}
+,{ "pid":12345, "tid":6, "ts":1720962796470259, "dur":200, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1720962796470119, "dur":340, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/dl1tyskygico.o" }}
+,{ "pid":12345, "tid":6, "ts":1720962796470481, "dur":101, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/dohq1zf0yyn5.o" }}
+,{ "pid":12345, "tid":6, "ts":1720962796470623, "dur":204, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"H:\\Github\\Gym-Beast-Clone\\67 bits\\Library\\Bee\\artifacts\\Android\\il2cppOutput\\cpp\\Generics__29.cpp" }}
+,{ "pid":12345, "tid":6, "ts":1720962796470841, "dur":219, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1720962796470605, "dur":456, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/qf4yd47em7au.o" }}
+,{ "pid":12345, "tid":6, "ts":1720962796471061, "dur":106, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1720962796471173, "dur":82, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/o89ib8jy3xks.o" }}
+,{ "pid":12345, "tid":6, "ts":1720962796471294, "dur":116, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"H:\\Github\\Gym-Beast-Clone\\67 bits\\Library\\Bee\\artifacts\\Android\\il2cppOutput\\cpp\\Unity.TextMeshPro.cpp" }}
+,{ "pid":12345, "tid":6, "ts":1720962796471418, "dur":221, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1720962796471276, "dur":364, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/9qt746xrdcan.o" }}
+,{ "pid":12345, "tid":6, "ts":1720962796471658, "dur":97, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/kj9e7bfgl1xh.o" }}
+,{ "pid":12345, "tid":6, "ts":1720962796471788, "dur":118, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"H:\\Github\\Gym-Beast-Clone\\67 bits\\Library\\Bee\\artifacts\\Android\\il2cppOutput\\cpp\\Il2CppReversePInvokeWrapperTable.cpp" }}
+,{ "pid":12345, "tid":6, "ts":1720962796471913, "dur":204, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1720962796471774, "dur":343, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/0d9rczyaqlip.o" }}
+,{ "pid":12345, "tid":6, "ts":1720962796472157, "dur":143, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"H:\\Github\\Gym-Beast-Clone\\67 bits\\Library\\Bee\\artifacts\\Android\\il2cppOutput\\cpp\\GenericMethods__5.cpp" }}
+,{ "pid":12345, "tid":6, "ts":1720962796472308, "dur":219, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1720962796472137, "dur":390, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/14boaqfokylg.o" }}
+,{ "pid":12345, "tid":6, "ts":1720962796472565, "dur":152, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"H:\\Github\\Gym-Beast-Clone\\67 bits\\Library\\Bee\\artifacts\\Android\\il2cppOutput\\cpp\\UnityEngine.UIElementsModule__9.cpp" }}
+,{ "pid":12345, "tid":6, "ts":1720962796472723, "dur":218, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1720962796472549, "dur":393, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/eu6quee13etl.o" }}
+,{ "pid":12345, "tid":6, "ts":1720962796472982, "dur":129, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"H:\\Github\\Gym-Beast-Clone\\67 bits\\Library\\Bee\\artifacts\\Android\\il2cppOutput\\cpp\\Generics__6.cpp" }}
+,{ "pid":12345, "tid":6, "ts":1720962796473119, "dur":196, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1720962796472968, "dur":347, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/92xgt18zdzop.o" }}
+,{ "pid":12345, "tid":6, "ts":1720962796473318, "dur":150, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1720962796473495, "dur":118, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"H:\\Github\\Gym-Beast-Clone\\67 bits\\Library\\Bee\\artifacts\\Android\\il2cppOutput\\cpp\\Unity.TextMeshPro__5.cpp" }}
+,{ "pid":12345, "tid":6, "ts":1720962796473620, "dur":205, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1720962796473477, "dur":348, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/izt8acte7fpv.o" }}
+,{ "pid":12345, "tid":6, "ts":1720962796473897, "dur":131, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"H:\\Github\\Gym-Beast-Clone\\67 bits\\Library\\Bee\\artifacts\\Android\\il2cppOutput\\cpp\\Generics__46.cpp" }}
+,{ "pid":12345, "tid":6, "ts":1720962796474038, "dur":198, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1720962796473869, "dur":367, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/xgd8egejh341.o" }}
+,{ "pid":12345, "tid":6, "ts":1720962796474272, "dur":118, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"H:\\Github\\Gym-Beast-Clone\\67 bits\\Library\\Bee\\artifacts\\Android\\il2cppOutput\\cpp\\Assembly-CSharp.cpp" }}
+,{ "pid":12345, "tid":6, "ts":1720962796474399, "dur":211, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1720962796474258, "dur":353, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/xyjuh0bpveln.o" }}
+,{ "pid":12345, "tid":6, "ts":1720962796474654, "dur":120, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"H:\\Github\\Gym-Beast-Clone\\67 bits\\Library\\Bee\\artifacts\\Android\\il2cppOutput\\cpp\\GenericMethods__3.cpp" }}
+,{ "pid":12345, "tid":6, "ts":1720962796474781, "dur":199, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1720962796474641, "dur":339, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/fhoja1ksd8sh.o" }}
+,{ "pid":12345, "tid":6, "ts":1720962796475036, "dur":130, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"H:\\Github\\Gym-Beast-Clone\\67 bits\\Library\\Bee\\artifacts\\Android\\il2cppOutput\\cpp\\UnityEngine.UI__1.cpp" }}
+,{ "pid":12345, "tid":6, "ts":1720962796475173, "dur":215, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1720962796475011, "dur":377, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/dhqk4gilg8ud.o" }}
+,{ "pid":12345, "tid":6, "ts":1720962796475433, "dur":119, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"H:\\Github\\Gym-Beast-Clone\\67 bits\\Library\\Bee\\artifacts\\Android\\il2cppOutput\\cpp\\Generics__48.cpp" }}
+,{ "pid":12345, "tid":6, "ts":1720962796475563, "dur":216, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1720962796475418, "dur":362, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/j40cf58eotx0.o" }}
+,{ "pid":12345, "tid":6, "ts":1720962796475962, "dur":127, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"H:\\Github\\Gym-Beast-Clone\\67 bits\\Library\\Bee\\artifacts\\Android\\il2cppOutput\\cpp\\Unity.InputSystem__9.cpp" }}
+,{ "pid":12345, "tid":6, "ts":1720962796476096, "dur":206, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1720962796475803, "dur":500, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/4d5uzkswz0fv.o" }}
+,{ "pid":12345, "tid":6, "ts":1720962796476326, "dur":67, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/00zqbt1rrw25.o" }}
+,{ "pid":12345, "tid":6, "ts":1720962796476433, "dur":176, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"H:\\Github\\Gym-Beast-Clone\\67 bits\\Library\\Bee\\artifacts\\Android\\il2cppOutput\\cpp\\Generics__65.cpp" }}
+,{ "pid":12345, "tid":6, "ts":1720962796476634, "dur":226, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1720962796476416, "dur":444, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/q59lghfjjpr8.o" }}
+,{ "pid":12345, "tid":6, "ts":1720962796476895, "dur":122, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"H:\\Github\\Gym-Beast-Clone\\67 bits\\Library\\Bee\\artifacts\\Android\\il2cppOutput\\cpp\\mscorlib__8.cpp" }}
+,{ "pid":12345, "tid":6, "ts":1720962796477024, "dur":207, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1720962796476881, "dur":350, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/ybulpysmog9n.o" }}
+,{ "pid":12345, "tid":6, "ts":1720962796477282, "dur":152, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"H:\\Github\\Gym-Beast-Clone\\67 bits\\Library\\Bee\\artifacts\\Android\\il2cppOutput\\cpp\\Generics__7.cpp" }}
+,{ "pid":12345, "tid":6, "ts":1720962796477442, "dur":197, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1720962796477255, "dur":384, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/abixdhpyh154.o" }}
+,{ "pid":12345, "tid":6, "ts":1720962796477694, "dur":85, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/dwgy5xmimef9.o" }}
+,{ "pid":12345, "tid":6, "ts":1720962796477834, "dur":130, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"H:\\Github\\Gym-Beast-Clone\\67 bits\\Library\\Bee\\artifacts\\Android\\il2cppOutput\\cpp\\Generics__43.cpp" }}
+,{ "pid":12345, "tid":6, "ts":1720962796477974, "dur":217, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1720962796477816, "dur":376, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/qdmfzh5p7o0j.o" }}
+,{ "pid":12345, "tid":6, "ts":1720962796478240, "dur":129, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"H:\\Github\\Gym-Beast-Clone\\67 bits\\Library\\Bee\\artifacts\\Android\\il2cppOutput\\cpp\\Il2CppUnresolvedIndirectCallStubs.cpp" }}
+,{ "pid":12345, "tid":6, "ts":1720962796478376, "dur":231, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1720962796478219, "dur":388, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/jv95fd7ngml2.o" }}
+,{ "pid":12345, "tid":6, "ts":1720962796478709, "dur":56, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles H:/Github/Gym-Beast-Clone/67 bits/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/mscorlib__16.cpp" }}
+,{ "pid":12345, "tid":6, "ts":1720962796479264, "dur":54, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles H:/Github/Gym-Beast-Clone/67 bits/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.cpp" }}
+,{ "pid":12345, "tid":6, "ts":1720962796479387, "dur":474, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles H:/Github/Gym-Beast-Clone/67 bits/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.UIElementsModule__7.cpp" }}
+,{ "pid":12345, "tid":6, "ts":1720962796480323, "dur":107, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles H:/Github/Gym-Beast-Clone/67 bits/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Generics__55.cpp" }}
+,{ "pid":12345, "tid":6, "ts":1720962796480530, "dur":80, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles H:/Github/Gym-Beast-Clone/67 bits/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Generics__56.cpp" }}
+,{ "pid":12345, "tid":6, "ts":1720962796481103, "dur":1600752, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1720962796412953, "dur":31025, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1720962796443981, "dur":282, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1720962796444264, "dur":299, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1720962796444564, "dur":205, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1720962796444769, "dur":252, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1720962796445021, "dur":183, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1720962796445205, "dur":8453, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1720962796454119, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles H:/Github/Gym-Beast-Clone/67 bits/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/src/main/res/mipmap-mdpi/app_icon.png" }}
+,{ "pid":12345, "tid":7, "ts":1720962796454329, "dur":58, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"WriteText H:/Github/Gym-Beast-Clone/67 bits/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/resources/META-INF/com.android.games.engine.build_fingerprint" }}
+,{ "pid":12345, "tid":7, "ts":1720962796454515, "dur":1949, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1720962796456464, "dur":130, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"ExtractUsedFeatures Library/Bee/artifacts/Android/Features/UnityEngine.UIModule-FeaturesChecked.txt" }}
+,{ "pid":12345, "tid":7, "ts":1720962796456655, "dur":121, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"ExtractUsedFeatures Library/Bee/artifacts/Android/Features/UnityEngine.SubsystemsModule-FeaturesChecked.txt" }}
+,{ "pid":12345, "tid":7, "ts":1720962796456871, "dur":92, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"ExtractUsedFeatures Library/Bee/artifacts/Android/Features/UnityEngine.AnimationModule-FeaturesChecked.txt" }}
+,{ "pid":12345, "tid":7, "ts":1720962796456985, "dur":72, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"ExtractUsedFeatures Library/Bee/artifacts/Android/Features/UnityEngine.UnityWebRequestModule-FeaturesChecked.txt" }}
+,{ "pid":12345, "tid":7, "ts":1720962796457143, "dur":61, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"ExtractUsedFeatures Library/Bee/artifacts/Android/Features/Unity.VisualScripting.Flow-FeaturesChecked.txt" }}
+,{ "pid":12345, "tid":7, "ts":1720962796457376, "dur":61, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"ExtractUsedFeatures Library/Bee/artifacts/Android/Features/Mono.Security-FeaturesChecked.txt" }}
+,{ "pid":12345, "tid":7, "ts":1720962796457459, "dur":55, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"ExtractUsedFeatures Library/Bee/artifacts/Android/Features/Mono.Security-FeaturesChecked.txt" }}
+,{ "pid":12345, "tid":7, "ts":1720962796457554, "dur":172, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\Android\\Features\\Assembly-CSharp-FeaturesChecked.txt" }}
+,{ "pid":12345, "tid":7, "ts":1720962796457552, "dur":314, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Generate Manifests Library/Bee/artifacts/Android/Manifest/IntermediateLauncherManifestDiag.txt (+3 others)" }}
+,{ "pid":12345, "tid":7, "ts":1720962796571161, "dur":232633, "ph":"X", "name": "Generate",  "args": { "detail":"Manifests Library/Bee/artifacts/Android/Manifest/IntermediateLauncherManifestDiag.txt (+3 others)" }}
+,{ "pid":12345, "tid":7, "ts":1720962796803913, "dur":137, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\Android\\Manifest\\launcher\\src\\main\\AndroidManifest.xml" }}
+,{ "pid":12345, "tid":7, "ts":1720962796804062, "dur":81, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\Android\\Manifest\\unityLibrary\\src\\main\\AndroidManifest.xml" }}
+,{ "pid":12345, "tid":7, "ts":1720962796803884, "dur":260, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"ModifyAndroidProjectCallback H:/Github/Gym-Beast-Clone/67 bits/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/src/main/AndroidManifest.xml (+8 others)" }}
+,{ "pid":12345, "tid":7, "ts":1720962798081075, "dur":482, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"H:\\Github\\Gym-Beast-Clone\\67 bits\\Library\\Bee\\Android\\Prj\\IL2CPP\\Gradle\\launcher\\src\\main\\AndroidManifest.xml" }}
+,{ "pid":12345, "tid":7, "ts":1720962798081034, "dur":526, "ph":"X", "name": "CheckPristineOutputSignature",  "args": { "detail":"ModifyAndroidProjectCallback H:/Github/Gym-Beast-Clone/67 bits/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/src/main/AndroidManifest.xml (+8 others)" }}
+,{ "pid":12345, "tid":7, "ts":1720962798081562, "dur":70, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1720962796831073, "dur":1250604, "ph":"X", "name": "ModifyAndroidProjectCallback",  "args": { "detail":"H:/Github/Gym-Beast-Clone/67 bits/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/src/main/AndroidManifest.xml (+8 others)" }}
+,{ "pid":12345, "tid":8, "ts":1720962796412992, "dur":30994, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1720962796443987, "dur":322, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1720962796444310, "dur":300, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1720962796444611, "dur":242, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1720962796444853, "dur":242, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1720962796445096, "dur":114, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1720962796445210, "dur":8408, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1720962796453858, "dur":99, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"WriteText Library/Bee/artifacts/csharpactions/mscorlib-FeaturesChecked.txt_pwj8.info" }}
+,{ "pid":12345, "tid":8, "ts":1720962796454059, "dur":906, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"AddBootConfigGUID Library/Bee/artifacts/Android/boot.config" }}
+,{ "pid":12345, "tid":8, "ts":1720962796455009, "dur":1455, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1720962796456465, "dur":65, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"ExtractUsedFeatures Library/Bee/artifacts/Android/Features/Unity.Profiling.Core-FeaturesChecked.txt" }}
+,{ "pid":12345, "tid":8, "ts":1720962796456594, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"ExtractUsedFeatures Library/Bee/artifacts/Android/Features/UnityEngine.TextCoreFontEngineModule-FeaturesChecked.txt" }}
+,{ "pid":12345, "tid":8, "ts":1720962796456685, "dur":62, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"ExtractUsedFeatures Library/Bee/artifacts/Android/Features/UnityEngine.AndroidJNIModule-FeaturesChecked.txt" }}
+,{ "pid":12345, "tid":8, "ts":1720962796456824, "dur":109, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"ExtractUsedFeatures Library/Bee/artifacts/Android/Features/System.Core-FeaturesChecked.txt" }}
+,{ "pid":12345, "tid":8, "ts":1720962796457201, "dur":77, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"ExtractUsedFeatures Library/Bee/artifacts/Android/Features/Unity.InputSystem-FeaturesChecked.txt" }}
+,{ "pid":12345, "tid":8, "ts":1720962796458245, "dur":3462, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1720962796461725, "dur":213, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"H:\\Github\\Gym-Beast-Clone\\67 bits\\Library\\Bee\\artifacts\\Android\\il2cppOutput\\cpp\\UnityEngine.UnityWebRequestModule.cpp" }}
+,{ "pid":12345, "tid":8, "ts":1720962796461947, "dur":231, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1720962796461708, "dur":471, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/omtk31q7pqzv.o" }}
+,{ "pid":12345, "tid":8, "ts":1720962796462227, "dur":205, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"H:\\Github\\Gym-Beast-Clone\\67 bits\\Library\\Bee\\artifacts\\Android\\il2cppOutput\\cpp\\UnityEngine.UIElementsModule__8.cpp" }}
+,{ "pid":12345, "tid":8, "ts":1720962796462439, "dur":254, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1720962796462209, "dur":485, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/dmmaazx2zcc6.o" }}
+,{ "pid":12345, "tid":8, "ts":1720962796462759, "dur":180, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"H:\\Github\\Gym-Beast-Clone\\67 bits\\Library\\Bee\\artifacts\\Android\\il2cppOutput\\cpp\\Generics__22.cpp" }}
+,{ "pid":12345, "tid":8, "ts":1720962796462946, "dur":240, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1720962796462717, "dur":470, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/b11wxr9tycle.o" }}
+,{ "pid":12345, "tid":8, "ts":1720962796463222, "dur":199, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"H:\\Github\\Gym-Beast-Clone\\67 bits\\Library\\Bee\\artifacts\\Android\\il2cppOutput\\cpp\\Generics__71.cpp" }}
+,{ "pid":12345, "tid":8, "ts":1720962796463429, "dur":255, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1720962796463210, "dur":475, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/5ofotwh98ra2.o" }}
+,{ "pid":12345, "tid":8, "ts":1720962796463708, "dur":78, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/1a4ygpr3dhv7.o" }}
+,{ "pid":12345, "tid":8, "ts":1720962796463809, "dur":69, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/u8z3arpk9rfg.o" }}
+,{ "pid":12345, "tid":8, "ts":1720962796463879, "dur":222, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1720962796464127, "dur":124, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"H:\\Github\\Gym-Beast-Clone\\67 bits\\Library\\Bee\\artifacts\\Android\\il2cppOutput\\cpp\\Generics__69.cpp" }}
+,{ "pid":12345, "tid":8, "ts":1720962796464258, "dur":217, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1720962796464109, "dur":366, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/yglvgv4ax5c6.o" }}
+,{ "pid":12345, "tid":8, "ts":1720962796464507, "dur":129, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"H:\\Github\\Gym-Beast-Clone\\67 bits\\Library\\Bee\\artifacts\\Android\\il2cppOutput\\cpp\\mscorlib__11.cpp" }}
+,{ "pid":12345, "tid":8, "ts":1720962796464644, "dur":231, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1720962796464494, "dur":381, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/kln5icxi30cc.o" }}
+,{ "pid":12345, "tid":8, "ts":1720962796464946, "dur":203, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"H:\\Github\\Gym-Beast-Clone\\67 bits\\Library\\Bee\\artifacts\\Android\\il2cppOutput\\cpp\\UnityEngine.UI.cpp" }}
+,{ "pid":12345, "tid":8, "ts":1720962796465157, "dur":241, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1720962796464919, "dur":479, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/qxnp40zdghv6.o" }}
+,{ "pid":12345, "tid":8, "ts":1720962796465436, "dur":117, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"H:\\Github\\Gym-Beast-Clone\\67 bits\\Library\\Bee\\artifacts\\Android\\il2cppOutput\\cpp\\Unity.ResourceManager.cpp" }}
+,{ "pid":12345, "tid":8, "ts":1720962796465558, "dur":215, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1720962796465417, "dur":356, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/hst82c71v0aj.o" }}
+,{ "pid":12345, "tid":8, "ts":1720962796465839, "dur":125, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"H:\\Github\\Gym-Beast-Clone\\67 bits\\Library\\Bee\\artifacts\\Android\\il2cppOutput\\cpp\\Generics__52.cpp" }}
+,{ "pid":12345, "tid":8, "ts":1720962796465972, "dur":262, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1720962796465809, "dur":426, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/c0iasvg965nv.o" }}
+,{ "pid":12345, "tid":8, "ts":1720962796466286, "dur":126, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"H:\\Github\\Gym-Beast-Clone\\67 bits\\Library\\Bee\\artifacts\\Android\\il2cppOutput\\cpp\\UnityEngine.UIElementsModule__4.cpp" }}
+,{ "pid":12345, "tid":8, "ts":1720962796466420, "dur":171, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1720962796466261, "dur":330, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/l3rteracnaw4.o" }}
+,{ "pid":12345, "tid":8, "ts":1720962796466591, "dur":117, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1720962796466753, "dur":128, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"H:\\Github\\Gym-Beast-Clone\\67 bits\\Library\\Bee\\artifacts\\Android\\il2cppOutput\\cpp\\Generics__27.cpp" }}
+,{ "pid":12345, "tid":8, "ts":1720962796466888, "dur":262, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1720962796466724, "dur":426, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/4rgudfdjfhiv.o" }}
+,{ "pid":12345, "tid":8, "ts":1720962796467202, "dur":150, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"H:\\Github\\Gym-Beast-Clone\\67 bits\\Library\\Bee\\artifacts\\Android\\il2cppOutput\\cpp\\Generics__19.cpp" }}
+,{ "pid":12345, "tid":8, "ts":1720962796467359, "dur":208, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1720962796467179, "dur":389, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/3knn0agxio62.o" }}
+,{ "pid":12345, "tid":8, "ts":1720962796467603, "dur":123, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"H:\\Github\\Gym-Beast-Clone\\67 bits\\Library\\Bee\\artifacts\\Android\\il2cppOutput\\cpp\\Unity.InputSystem__10.cpp" }}
+,{ "pid":12345, "tid":8, "ts":1720962796467735, "dur":256, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1720962796467589, "dur":402, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/e3mh8jbzwcfr.o" }}
+,{ "pid":12345, "tid":8, "ts":1720962796468012, "dur":66, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/fmdbt4isb1vr.o" }}
+,{ "pid":12345, "tid":8, "ts":1720962796468138, "dur":163, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"E:\\Unity\\2023.1.15f1\\Editor\\Data\\PlaybackEngines\\AndroidPlayer\\NDK\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\llvm-ar" }}
+,{ "pid":12345, "tid":8, "ts":1720962796468102, "dur":229, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/bk4grspm0f4q.o" }}
+,{ "pid":12345, "tid":8, "ts":1720962796468371, "dur":128, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"H:\\Github\\Gym-Beast-Clone\\67 bits\\Library\\Bee\\artifacts\\Android\\il2cppOutput\\cpp\\System.Core__3.cpp" }}
+,{ "pid":12345, "tid":8, "ts":1720962796468507, "dur":297, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1720962796468357, "dur":447, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/sni6atntm5b8.o" }}
+,{ "pid":12345, "tid":8, "ts":1720962796468830, "dur":75, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/ykg4j6aeerv1.o" }}
+,{ "pid":12345, "tid":8, "ts":1720962796468983, "dur":120, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"H:\\Github\\Gym-Beast-Clone\\67 bits\\Library\\Bee\\artifacts\\Android\\il2cppOutput\\cpp\\Generics__15.cpp" }}
+,{ "pid":12345, "tid":8, "ts":1720962796469121, "dur":228, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1720962796468945, "dur":404, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/b2s642s65lq1.o" }}
+,{ "pid":12345, "tid":8, "ts":1720962796469394, "dur":132, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"H:\\Github\\Gym-Beast-Clone\\67 bits\\Library\\Bee\\artifacts\\Android\\il2cppOutput\\cpp\\Generics__2.cpp" }}
+,{ "pid":12345, "tid":8, "ts":1720962796469534, "dur":210, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1720962796469371, "dur":373, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/hk3zxtl90w8n.o" }}
+,{ "pid":12345, "tid":8, "ts":1720962796469781, "dur":113, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"H:\\Github\\Gym-Beast-Clone\\67 bits\\Library\\Bee\\artifacts\\Android\\il2cppOutput\\cpp\\Unity.AdaptivePerformance.cpp" }}
+,{ "pid":12345, "tid":8, "ts":1720962796469902, "dur":264, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1720962796469767, "dur":399, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/g7gcix4bal6a.o" }}
+,{ "pid":12345, "tid":8, "ts":1720962796470226, "dur":151, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"H:\\Github\\Gym-Beast-Clone\\67 bits\\Library\\Bee\\artifacts\\Android\\il2cppOutput\\cpp\\Unity.InputSystem__7.cpp" }}
+,{ "pid":12345, "tid":8, "ts":1720962796470385, "dur":270, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1720962796470188, "dur":468, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/iqhqzvx0sanw.o" }}
+,{ "pid":12345, "tid":8, "ts":1720962796470704, "dur":165, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"H:\\Github\\Gym-Beast-Clone\\67 bits\\Library\\Bee\\artifacts\\Android\\il2cppOutput\\cpp\\UnityEngine.UIModule.cpp" }}
+,{ "pid":12345, "tid":8, "ts":1720962796470876, "dur":228, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1720962796470685, "dur":419, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/683ppm1m3u0r.o" }}
+,{ "pid":12345, "tid":8, "ts":1720962796471141, "dur":144, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"H:\\Github\\Gym-Beast-Clone\\67 bits\\Library\\Bee\\artifacts\\Android\\il2cppOutput\\cpp\\GenericMethods__17.cpp" }}
+,{ "pid":12345, "tid":8, "ts":1720962796471302, "dur":224, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1720962796471128, "dur":399, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/gtzhwe8g6a9m.o" }}
+,{ "pid":12345, "tid":8, "ts":1720962796471560, "dur":160, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"H:\\Github\\Gym-Beast-Clone\\67 bits\\Library\\Bee\\artifacts\\Android\\il2cppOutput\\cpp\\Generics__21.cpp" }}
+,{ "pid":12345, "tid":8, "ts":1720962796471729, "dur":206, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1720962796471546, "dur":390, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/qly8hivwvo9u.o" }}
+,{ "pid":12345, "tid":8, "ts":1720962796471971, "dur":114, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"H:\\Github\\Gym-Beast-Clone\\67 bits\\Library\\Bee\\artifacts\\Android\\il2cppOutput\\cpp\\Generics__70.cpp" }}
+,{ "pid":12345, "tid":8, "ts":1720962796472094, "dur":207, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1720962796471958, "dur":343, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/k9b0dn3b63yi.o" }}
+,{ "pid":12345, "tid":8, "ts":1720962796472336, "dur":138, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"H:\\Github\\Gym-Beast-Clone\\67 bits\\Library\\Bee\\artifacts\\Android\\il2cppOutput\\cpp\\Il2CppInteropDataTable.cpp" }}
+,{ "pid":12345, "tid":8, "ts":1720962796472480, "dur":178, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1720962796472320, "dur":339, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/ec9yb073n9ft.o" }}
+,{ "pid":12345, "tid":8, "ts":1720962796472680, "dur":78, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/9i230mtx6ioi.o" }}
+,{ "pid":12345, "tid":8, "ts":1720962796472840, "dur":150, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"H:\\Github\\Gym-Beast-Clone\\67 bits\\Library\\Bee\\artifacts\\Android\\il2cppOutput\\cpp\\UnityEngine.SharedInternalsModule.cpp" }}
+,{ "pid":12345, "tid":8, "ts":1720962796473020, "dur":179, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1720962796472780, "dur":420, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/l3ofu19h5whq.o" }}
+,{ "pid":12345, "tid":8, "ts":1720962796473264, "dur":94, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"H:\\Github\\Gym-Beast-Clone\\67 bits\\Library\\Bee\\artifacts\\Android\\il2cppOutput\\cpp\\GenericMethods__10.cpp" }}
+,{ "pid":12345, "tid":8, "ts":1720962796473380, "dur":222, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1720962796473222, "dur":380, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/1exfg29vigj7.o" }}
+,{ "pid":12345, "tid":8, "ts":1720962796473658, "dur":125, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"H:\\Github\\Gym-Beast-Clone\\67 bits\\Library\\Bee\\artifacts\\Android\\il2cppOutput\\cpp\\Il2CppCCalculateTypeValues1.cpp" }}
+,{ "pid":12345, "tid":8, "ts":1720962796473793, "dur":269, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1720962796473644, "dur":418, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/lp1dtmi2p6f7.o" }}
+,{ "pid":12345, "tid":8, "ts":1720962796474063, "dur":92, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1720962796474176, "dur":138, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"H:\\Github\\Gym-Beast-Clone\\67 bits\\Library\\Bee\\artifacts\\Android\\il2cppOutput\\cpp\\UnityEngine.TextCoreTextEngineModule.cpp" }}
+,{ "pid":12345, "tid":8, "ts":1720962796474324, "dur":207, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1720962796474162, "dur":370, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/ljfjyc4kpem5.o" }}
+,{ "pid":12345, "tid":8, "ts":1720962796474602, "dur":130, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"H:\\Github\\Gym-Beast-Clone\\67 bits\\Library\\Bee\\artifacts\\Android\\il2cppOutput\\cpp\\UnityEngine.AudioModule.cpp" }}
+,{ "pid":12345, "tid":8, "ts":1720962796474742, "dur":207, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1720962796474553, "dur":397, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/uyuy9ewhc691.o" }}
+,{ "pid":12345, "tid":8, "ts":1720962796474950, "dur":234, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1720962796475209, "dur":112, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"H:\\Github\\Gym-Beast-Clone\\67 bits\\Library\\Bee\\artifacts\\Android\\il2cppOutput\\cpp\\GenericMethods__2.cpp" }}
+,{ "pid":12345, "tid":8, "ts":1720962796475328, "dur":220, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1720962796475191, "dur":358, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/u1kvur6uakhy.o" }}
+,{ "pid":12345, "tid":8, "ts":1720962796475583, "dur":109, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"H:\\Github\\Gym-Beast-Clone\\67 bits\\Library\\Bee\\artifacts\\Android\\il2cppOutput\\cpp\\Il2CppInvokerTable.cpp" }}
+,{ "pid":12345, "tid":8, "ts":1720962796475701, "dur":217, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1720962796475570, "dur":349, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/bcdg6ms2k7ih.o" }}
+,{ "pid":12345, "tid":8, "ts":1720962796475937, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/kjyd8sj0e3c0.o" }}
+,{ "pid":12345, "tid":8, "ts":1720962796476026, "dur":135, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"H:\\Github\\Gym-Beast-Clone\\67 bits\\Library\\Bee\\artifacts\\Android\\il2cppOutput\\cpp\\GenericMethods__15.cpp" }}
+,{ "pid":12345, "tid":8, "ts":1720962796476168, "dur":222, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1720962796476012, "dur":378, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/u5bdwpdlzkgo.o" }}
+,{ "pid":12345, "tid":8, "ts":1720962796476408, "dur":60, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/ojgc63339a59.o" }}
+,{ "pid":12345, "tid":8, "ts":1720962796476516, "dur":183, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"H:\\Github\\Gym-Beast-Clone\\67 bits\\Library\\Bee\\artifacts\\Android\\il2cppOutput\\cpp\\UnityEngine.UnityWebRequestAssetBundleModule.cpp" }}
+,{ "pid":12345, "tid":8, "ts":1720962796476711, "dur":243, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1720962796476497, "dur":457, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/0x8zatz6f1qq.o" }}
+,{ "pid":12345, "tid":8, "ts":1720962796477013, "dur":134, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"H:\\Github\\Gym-Beast-Clone\\67 bits\\Library\\Bee\\artifacts\\Android\\il2cppOutput\\cpp\\Unity.Profiling.Core.cpp" }}
+,{ "pid":12345, "tid":8, "ts":1720962796477154, "dur":254, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1720962796476993, "dur":416, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/3r75laaaei69.o" }}
+,{ "pid":12345, "tid":8, "ts":1720962796477483, "dur":117, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"H:\\Github\\Gym-Beast-Clone\\67 bits\\Library\\Bee\\artifacts\\Android\\il2cppOutput\\cpp\\Unity.TextMeshPro__2.cpp" }}
+,{ "pid":12345, "tid":8, "ts":1720962796477607, "dur":237, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1720962796477448, "dur":397, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/bw2fvdklx1kd.o" }}
+,{ "pid":12345, "tid":8, "ts":1720962796477845, "dur":195, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1720962796478048, "dur":85, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/mqe1ygc9ogsc.o" }}
+,{ "pid":12345, "tid":8, "ts":1720962796478133, "dur":180, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1720962796478348, "dur":176, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"H:\\Github\\Gym-Beast-Clone\\67 bits\\Library\\Bee\\artifacts\\Android\\il2cppOutput\\cpp\\Generics.cpp" }}
+,{ "pid":12345, "tid":8, "ts":1720962796478546, "dur":263, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1720962796478323, "dur":486, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/j74q220wcyiz.o" }}
+,{ "pid":12345, "tid":8, "ts":1720962796479153, "dur":78, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles H:/Github/Gym-Beast-Clone/67 bits/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.TilemapModule.cpp" }}
+,{ "pid":12345, "tid":8, "ts":1720962796479356, "dur":504, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1720962796479908, "dur":128, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles H:/Github/Gym-Beast-Clone/67 bits/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Unity.ResourceManager.cpp" }}
+,{ "pid":12345, "tid":8, "ts":1720962796480222, "dur":71, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles H:/Github/Gym-Beast-Clone/67 bits/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Generics__19.cpp" }}
+,{ "pid":12345, "tid":8, "ts":1720962796480496, "dur":53, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles H:/Github/Gym-Beast-Clone/67 bits/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Generics__21.cpp" }}
+,{ "pid":12345, "tid":8, "ts":1720962796480595, "dur":80, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles H:/Github/Gym-Beast-Clone/67 bits/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Generics__1.cpp" }}
+,{ "pid":12345, "tid":8, "ts":1720962796481116, "dur":1600718, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1720962798121860, "dur":7699, "ph":"X", "name": "ProfilerWriteOutput" }
+,

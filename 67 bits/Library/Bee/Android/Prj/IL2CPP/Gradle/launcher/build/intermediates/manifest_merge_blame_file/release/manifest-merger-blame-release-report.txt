@@ -1,0 +1,189 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.SixtySevenbits.game"
+4    android:installLocation="preferExternal"
+5    android:versionCode="1"
+6    android:versionName="0" >
+7
+8    <uses-sdk
+9        android:minSdkVersion="22"
+9-->H:\Github\Gym-Beast-Clone\67 bits\Library\Bee\Android\Prj\IL2CPP\Gradle\launcher\src\main\AndroidManifest.xml
+10        android:targetSdkVersion="33" />
+10-->H:\Github\Gym-Beast-Clone\67 bits\Library\Bee\Android\Prj\IL2CPP\Gradle\launcher\src\main\AndroidManifest.xml
+11
+12    <supports-screens
+12-->H:\Github\Gym-Beast-Clone\67 bits\Library\Bee\Android\Prj\IL2CPP\Gradle\launcher\src\main\AndroidManifest.xml:4:3-163
+13        android:anyDensity="true"
+13-->H:\Github\Gym-Beast-Clone\67 bits\Library\Bee\Android\Prj\IL2CPP\Gradle\launcher\src\main\AndroidManifest.xml:4:135-160
+14        android:largeScreens="true"
+14-->H:\Github\Gym-Beast-Clone\67 bits\Library\Bee\Android\Prj\IL2CPP\Gradle\launcher\src\main\AndroidManifest.xml:4:78-105
+15        android:normalScreens="true"
+15-->H:\Github\Gym-Beast-Clone\67 bits\Library\Bee\Android\Prj\IL2CPP\Gradle\launcher\src\main\AndroidManifest.xml:4:49-77
+16        android:smallScreens="true"
+16-->H:\Github\Gym-Beast-Clone\67 bits\Library\Bee\Android\Prj\IL2CPP\Gradle\launcher\src\main\AndroidManifest.xml:4:21-48
+17        android:xlargeScreens="true" />
+17-->H:\Github\Gym-Beast-Clone\67 bits\Library\Bee\Android\Prj\IL2CPP\Gradle\launcher\src\main\AndroidManifest.xml:4:106-134
+18
+19    <uses-permission android:name="android.permission.INTERNET" />
+19-->[:unityLibrary] H:\Github\Gym-Beast-Clone\67 bits\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:10:5-67
+19-->[:unityLibrary] H:\Github\Gym-Beast-Clone\67 bits\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:10:22-64
+20
+21    <uses-feature android:glEsVersion="0x00030000" />
+21-->[:unityLibrary] H:\Github\Gym-Beast-Clone\67 bits\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:12:5-54
+21-->[:unityLibrary] H:\Github\Gym-Beast-Clone\67 bits\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:12:19-51
+22    <uses-feature
+22-->[:unityLibrary] H:\Github\Gym-Beast-Clone\67 bits\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:13:5-15:36
+23        android:name="android.hardware.vulkan.version"
+23-->[:unityLibrary] H:\Github\Gym-Beast-Clone\67 bits\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:14:9-55
+24        android:required="false" />
+24-->[:unityLibrary] H:\Github\Gym-Beast-Clone\67 bits\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:15:9-33
+25    <uses-feature
+25-->[:unityLibrary] H:\Github\Gym-Beast-Clone\67 bits\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:16:5-18:36
+26        android:name="android.hardware.touchscreen"
+26-->[:unityLibrary] H:\Github\Gym-Beast-Clone\67 bits\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:17:9-52
+27        android:required="false" />
+27-->[:unityLibrary] H:\Github\Gym-Beast-Clone\67 bits\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:18:9-33
+28    <uses-feature
+28-->[:unityLibrary] H:\Github\Gym-Beast-Clone\67 bits\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:19:5-21:36
+29        android:name="android.hardware.touchscreen.multitouch"
+29-->[:unityLibrary] H:\Github\Gym-Beast-Clone\67 bits\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:20:9-63
+30        android:required="false" />
+30-->[:unityLibrary] H:\Github\Gym-Beast-Clone\67 bits\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:21:9-33
+31    <uses-feature
+31-->[:unityLibrary] H:\Github\Gym-Beast-Clone\67 bits\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:22:5-24:36
+32        android:name="android.hardware.touchscreen.multitouch.distinct"
+32-->[:unityLibrary] H:\Github\Gym-Beast-Clone\67 bits\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:23:9-72
+33        android:required="false" />
+33-->[:unityLibrary] H:\Github\Gym-Beast-Clone\67 bits\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:24:9-33
+34
+35    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+35-->[:unityLibrary] H:\Github\Gym-Beast-Clone\67 bits\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:26:5-77
+35-->[:unityLibrary] H:\Github\Gym-Beast-Clone\67 bits\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:26:22-74
+36
+37    <application
+37-->H:\Github\Gym-Beast-Clone\67 bits\Library\Bee\Android\Prj\IL2CPP\Gradle\launcher\src\main\AndroidManifest.xml:3:3-83
+38        android:extractNativeLibs="true"
+38-->[:unityLibrary] H:\Github\Gym-Beast-Clone\67 bits\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:28:18-50
+39        android:icon="@mipmap/app_icon"
+39-->H:\Github\Gym-Beast-Clone\67 bits\Library\Bee\Android\Prj\IL2CPP\Gradle\launcher\src\main\AndroidManifest.xml:3:16-47
+40        android:label="@string/app_name" >
+40-->H:\Github\Gym-Beast-Clone\67 bits\Library\Bee\Android\Prj\IL2CPP\Gradle\launcher\src\main\AndroidManifest.xml:3:48-80
+41        <meta-data
+41-->[:unityLibrary] H:\Github\Gym-Beast-Clone\67 bits\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:29:9-31:33
+42            android:name="unity.splash-mode"
+42-->[:unityLibrary] H:\Github\Gym-Beast-Clone\67 bits\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:30:13-45
+43            android:value="0" />
+43-->[:unityLibrary] H:\Github\Gym-Beast-Clone\67 bits\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:31:13-30
+44        <meta-data
+44-->[:unityLibrary] H:\Github\Gym-Beast-Clone\67 bits\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:32:9-34:36
+45            android:name="unity.splash-enable"
+45-->[:unityLibrary] H:\Github\Gym-Beast-Clone\67 bits\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:33:13-47
+46            android:value="True" />
+46-->[:unityLibrary] H:\Github\Gym-Beast-Clone\67 bits\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:34:13-33
+47        <meta-data
+47-->[:unityLibrary] H:\Github\Gym-Beast-Clone\67 bits\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:35:9-37:36
+48            android:name="unity.launch-fullscreen"
+48-->[:unityLibrary] H:\Github\Gym-Beast-Clone\67 bits\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:36:13-51
+49            android:value="True" />
+49-->[:unityLibrary] H:\Github\Gym-Beast-Clone\67 bits\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:37:13-33
+50        <meta-data
+50-->[:unityLibrary] H:\Github\Gym-Beast-Clone\67 bits\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:38:9-40:37
+51            android:name="unity.allow-resizable-window"
+51-->[:unityLibrary] H:\Github\Gym-Beast-Clone\67 bits\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:39:13-56
+52            android:value="False" />
+52-->[:unityLibrary] H:\Github\Gym-Beast-Clone\67 bits\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:40:13-34
+53        <meta-data
+53-->[:unityLibrary] H:\Github\Gym-Beast-Clone\67 bits\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:41:9-43:50
+54            android:name="notch.config"
+54-->[:unityLibrary] H:\Github\Gym-Beast-Clone\67 bits\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:42:13-40
+55            android:value="portrait|landscape" />
+55-->[:unityLibrary] H:\Github\Gym-Beast-Clone\67 bits\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:43:13-47
+56        <meta-data
+56-->[:unityLibrary] H:\Github\Gym-Beast-Clone\67 bits\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:44:9-46:36
+57            android:name="unity.auto-report-fully-drawn"
+57-->[:unityLibrary] H:\Github\Gym-Beast-Clone\67 bits\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:45:13-57
+58            android:value="true" />
+58-->[:unityLibrary] H:\Github\Gym-Beast-Clone\67 bits\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:46:13-33
+59        <meta-data
+59-->[:unityLibrary] H:\Github\Gym-Beast-Clone\67 bits\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:47:9-49:36
+60            android:name="unity.strip-engine-code"
+60-->[:unityLibrary] H:\Github\Gym-Beast-Clone\67 bits\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:48:13-51
+61            android:value="true" />
+61-->[:unityLibrary] H:\Github\Gym-Beast-Clone\67 bits\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:49:13-33
+62
+63        <activity
+63-->[:unityLibrary] H:\Github\Gym-Beast-Clone\67 bits\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:51:9-73:20
+64            android:name="com.unity3d.player.UnityPlayerActivity"
+64-->[:unityLibrary] H:\Github\Gym-Beast-Clone\67 bits\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:52:13-66
+65            android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|fontScale|layoutDirection|density"
+65-->[:unityLibrary] H:\Github\Gym-Beast-Clone\67 bits\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:53:13-194
+66            android:enabled="true"
+66-->[:unityLibrary] H:\Github\Gym-Beast-Clone\67 bits\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:54:13-35
+67            android:exported="true"
+67-->[:unityLibrary] H:\Github\Gym-Beast-Clone\67 bits\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:55:13-36
+68            android:hardwareAccelerated="false"
+68-->[:unityLibrary] H:\Github\Gym-Beast-Clone\67 bits\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:56:13-48
+69            android:launchMode="singleTask"
+69-->[:unityLibrary] H:\Github\Gym-Beast-Clone\67 bits\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:57:13-44
+70            android:resizeableActivity="false"
+70-->[:unityLibrary] H:\Github\Gym-Beast-Clone\67 bits\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:58:13-47
+71            android:screenOrientation="landscape"
+71-->[:unityLibrary] H:\Github\Gym-Beast-Clone\67 bits\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:59:13-50
+72            android:theme="@style/UnityThemeSelector" >
+72-->[:unityLibrary] H:\Github\Gym-Beast-Clone\67 bits\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:60:13-54
+73            <intent-filter>
+73-->[:unityLibrary] H:\Github\Gym-Beast-Clone\67 bits\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:61:13-65:29
+74                <category android:name="android.intent.category.LAUNCHER" />
+74-->[:unityLibrary] H:\Github\Gym-Beast-Clone\67 bits\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:62:17-77
+74-->[:unityLibrary] H:\Github\Gym-Beast-Clone\67 bits\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:62:27-74
+75
+76                <action android:name="android.intent.action.MAIN" />
+76-->[:unityLibrary] H:\Github\Gym-Beast-Clone\67 bits\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:64:17-69
+76-->[:unityLibrary] H:\Github\Gym-Beast-Clone\67 bits\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:64:25-66
+77            </intent-filter>
+78
+79            <meta-data
+79-->[:unityLibrary] H:\Github\Gym-Beast-Clone\67 bits\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:67:13-69:40
+80                android:name="unityplayer.UnityActivity"
+80-->[:unityLibrary] H:\Github\Gym-Beast-Clone\67 bits\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:68:17-57
+81                android:value="true" />
+81-->[:unityLibrary] H:\Github\Gym-Beast-Clone\67 bits\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:69:17-37
+82            <meta-data
+82-->[:unityLibrary] H:\Github\Gym-Beast-Clone\67 bits\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:70:13-72:40
+83                android:name="notch_support"
+83-->[:unityLibrary] H:\Github\Gym-Beast-Clone\67 bits\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:71:17-45
+84                android:value="true" />
+84-->[:unityLibrary] H:\Github\Gym-Beast-Clone\67 bits\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:72:17-37
+85        </activity>
+86
+87        <receiver
+87-->[:unityLibrary] H:\Github\Gym-Beast-Clone\67 bits\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:75:9-77:40
+88            android:name="com.unity.androidnotifications.UnityNotificationManager"
+88-->[:unityLibrary] H:\Github\Gym-Beast-Clone\67 bits\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:76:13-83
+89            android:exported="false" />
+89-->[:unityLibrary] H:\Github\Gym-Beast-Clone\67 bits\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:77:13-37
+90        <receiver
+90-->[:unityLibrary] H:\Github\Gym-Beast-Clone\67 bits\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:78:9-85:20
+91            android:name="com.unity.androidnotifications.UnityNotificationRestartOnBootReceiver"
+91-->[:unityLibrary] H:\Github\Gym-Beast-Clone\67 bits\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:79:13-97
+92            android:enabled="false"
+92-->[:unityLibrary] H:\Github\Gym-Beast-Clone\67 bits\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:80:13-36
+93            android:exported="false" >
+93-->[:unityLibrary] H:\Github\Gym-Beast-Clone\67 bits\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:81:13-37
+94            <intent-filter>
+94-->[:unityLibrary] H:\Github\Gym-Beast-Clone\67 bits\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:82:13-84:29
+95                <action android:name="android.intent.action.BOOT_COMPLETED" />
+95-->[:unityLibrary] H:\Github\Gym-Beast-Clone\67 bits\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:83:17-79
+95-->[:unityLibrary] H:\Github\Gym-Beast-Clone\67 bits\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:83:25-76
+96            </intent-filter>
+97        </receiver>
+98
+99        <meta-data
+99-->[:unityLibrary] H:\Github\Gym-Beast-Clone\67 bits\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:87:9-89:33
+100            android:name="com.unity.androidnotifications.exact_scheduling"
+100-->[:unityLibrary] H:\Github\Gym-Beast-Clone\67 bits\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:88:13-75
+101            android:value="0" />
+101-->[:unityLibrary] H:\Github\Gym-Beast-Clone\67 bits\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:89:13-30
+102    </application>
+103
+104</manifest>

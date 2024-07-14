@@ -1,0 +1,20 @@
+<dependencies>
+  <compile
+      roots="H:\Github\Gym-Beast-Clone\67 bits\Library\Bee\Android\Prj\IL2CPP\Gradle@@:unityLibrary::release">
+    <dependency
+        name="H:\Github\Gym-Beast-Clone\67 bits\Library\Bee\Android\Prj\IL2CPP\Gradle@@:unityLibrary::release"
+        simpleName="Gradle:unityLibrary"/>
+  </compile>
+  <package
+      roots="H:\Github\Gym-Beast-Clone\67 bits\Library\Bee\Android\Prj\IL2CPP\Gradle@@:unityLibrary::release,__local_aars__:H:\Github\Gym-Beast-Clone\67 bits\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\libs\unity-classes.jar:unspecified@jar,androidx.games:games-frame-pacing:1.10.0@aar">
+    <dependency
+        name="H:\Github\Gym-Beast-Clone\67 bits\Library\Bee\Android\Prj\IL2CPP\Gradle@@:unityLibrary::release"
+        simpleName="Gradle:unityLibrary"/>
+    <dependency
+        name="__local_aars__:H:\Github\Gym-Beast-Clone\67 bits\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\libs\unity-classes.jar:unspecified@jar"
+        simpleName="__local_aars__:H:\Github\Gym-Beast-Clone\67 bits\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\libs\unity-classes.jar"/>
+    <dependency
+        name="androidx.games:games-frame-pacing:1.10.0@aar"
+        simpleName="androidx.games:games-frame-pacing"/>
+  </package>
+</dependencies>
